@@ -1,0 +1,1 @@
+window.alert('Bienvenidos, Grupo N°1.\nCurso Fullstack:\n\nGregory Rodriguez\nJonathan Galarza\nMacarena Rijo\nAlejandro Risso');
