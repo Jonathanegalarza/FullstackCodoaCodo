@@ -129,7 +129,9 @@ nav ul li a:hover {
 }
 
 .brand img{
-    width: 30px;
+    width: 70px;
+    padding: 10px;
+    margin: 10px;
     
 }
 
