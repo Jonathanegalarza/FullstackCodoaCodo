@@ -30,11 +30,18 @@
             </header>
             <main id="main">
                 <aside id="aside">Aside</aside>
-                <article id="principal">
-                    <section>Section 1</section>
-                    <section>Section 2</section>
-                    <section>Section 3</section>
-                </article>
+                <div class="form">
+                    <h1>Crear Grupos</h1>
+                    <form id="grupoForm">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" required>
+                        <button type="submit">Agregar</button>
+                    </form>
+                    <button id="crearGrupo">Crear Grupos</button>
+                    <div id="grupoVisualizacion"></div>
+                </div>
             </main>
             <footer id="footer">
                 <div id="containerfoot">

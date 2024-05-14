@@ -67,6 +67,26 @@ nav ul li a:hover {
 
 }
 
+.form{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+input, button {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+.group {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
 #aside{
     padding: 20px;
     margin: 2px;
