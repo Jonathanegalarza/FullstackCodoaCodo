@@ -156,3 +156,9 @@ button {
     
 }
 
+#grupoForm{
+    width: 25%;
+    padding: 30px 15px;
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -29,18 +29,20 @@
                 </nav>
             </header>
             <main id="main">
-                <aside id="aside">Aside</aside>
+                <aside id="aside">
+                    <h2>Alumnos</h2>
+                    <div id="alumnos"></div>
+                </aside>
                 <div class="form">
-                    <h1>Crear Grupos</h1>
-                    <form id="grupoForm">
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" id="nombre" required>
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" required>
-                        <button type="submit">Agregar</button>
-                    </form>
-                    <button id="crearGrupo">Crear Grupos</button>
-                    <div id="grupoVisualizacion"></div>
+                    <h2>Agregar Alumnos</h2>
+                        <form id="grupoForm">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" required>
+                            <button id="bagregar" onclick="agregarAlumnos()">Agregar</button>
+                        </form>
+                    <button id="crearGrupo" onclick="grupoVisualizacion()">Crear Grupos</button>
                 </div>
             </main>
             
@@ -78,5 +80,6 @@
                 </div>
             </footer>
         </div>
+
     </body>
 </html>
