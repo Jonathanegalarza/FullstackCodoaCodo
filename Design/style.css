@@ -97,7 +97,9 @@ button {
 #principal{
     padding: 20px;
     margin: 2px;
+    width: auto;
     border: 2px solid black;
+   
 }
 
 #footer{
@@ -161,4 +163,21 @@ button {
     padding: 30px 15px;
     display: flex;
     flex-wrap: wrap;
+}
+
+.politicas{
+    width: 1157px;
+    border: 2px solid black;
+    padding-left: 1rem;
+    
+}
+.mision{
+    border: 2px solid black;
+    width: 1172px;
+    padding-left: 1rem;
+}
+.vision{
+    border: 2px solid black;
+    width: 1172px;
+    padding-left: 1rem;
 }
