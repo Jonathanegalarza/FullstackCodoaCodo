@@ -1,21 +1,32 @@
-/*const agregarAlumnos = () => {
-    var participantes = []
-    let nombre = document.getElementById('nombre').value;
-    let email = document.getElementById('email').value;
-    participantes.push({ nombre, email });
-    console.log(participantes);
-    grupoForm.reset();
+/*document.addEventListener("DOMContentLoaded", function() {
+    const grupoForm = document.getElementById('grupoForm');
+    const crearGrupo = document.getElementById('crearGrupo');
+    const grupoVisualizacion = document.getElementById('grupoVisualizacion');
+    let participantes = [];
 
-    participantes.map(item=>{
-        //Accedemos a su contenido
-          participantes +=`<tr>
-          <td>${item.nombre}</td>
-          <td>${item.email}</td>
-          </tr>`
-        })
-        //Dibujamos la informacion
-        document.getElementById("alumnos").innerHTML = participantes
-}*/
+})
+
+const agregarAlumnos = () => {
+    var participantes = [];
+
+    var nombre = document.getElementById('nombre').value.trim();
+    var apellido = document.getElementById('apellido').value.trim();
+    var email = document.getElementById('email').value.toLowerCase().trim();
+
+    participantes.push({ nombre, apellido, email });
+    window.localStorage.setItem('Nombre', nombre);
+    window.localStorage.setItem('Apellido', apellido);
+    window.localStorage.setItem('Email', email);
+    
+    grupoForm.reset();    
+    console.log(participantes);
+   
+    document.getElementById("nombreM").innerHTML = localStorage.getItem('Nombre')
+    document.getElementById("apellidoM").innerHTML = localStorage.getItem('Apellido');
+    document.getElementById("emailM").innerHTML = localStorage.getItem('Email')
+}
+   
+*/
 
 let alumnos = [];
 
