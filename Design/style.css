@@ -97,9 +97,13 @@ button {
 #principal{
     padding: 20px;
     margin: 2px;
+
+    border: 2px solid black;
+
     width: auto;
     border: 2px solid black;
    
+
 }
 
 #footer{
@@ -165,6 +169,8 @@ button {
     flex-wrap: wrap;
 }
 
+
+
 .politicas{
     width: 1157px;
     border: 2px solid black;
@@ -181,3 +187,4 @@ button {
     width: 1172px;
     padding-left: 1rem;
 }
+
