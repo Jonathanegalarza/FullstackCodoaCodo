@@ -77,6 +77,8 @@
     margin-bottom: 100px;
 }
 
+
+
 nav {
     float: left;
     margin: 5px;
@@ -84,7 +86,6 @@ nav {
 
 nav ul {
     list-style: none;
-    overflow: hidden;
 }
 
 nav ul li {
@@ -105,8 +106,9 @@ nav ul li a:hover {
     background: #eca023;
     padding-left: 35px;
     color: #fff;
-
 }
+
+
 
 .group {
     border: 1px solid #ccc;
@@ -124,26 +126,34 @@ nav ul li a:hover {
     border: 2px solid black;
 }
 
-#footer{
+
+
+#footer{    
     background: rgba(0,0,0,0.7);
-    width: 100%;
     margin-top: 100px;
+    text-decoration: none;
 }
 
 #containerfoot{
-    margin: 0 auto;
-
-}
-
-#footer-rows{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-around;
+    align-items: center;
+    padding: 20px;
+    flex-flow: wrap;
+    margin: 50px;
 }
 
-#footer-links{
-    width: 25%;
-    padding: 30px 15px;
+
+#footer-links ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+#footer-links ul li {
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
 }
 
 #footer-links h4{
@@ -159,7 +169,7 @@ nav ul li a:hover {
     font-size: 16px;
     color: #bbbbbb ;
     text-decoration: none;
-    display: block;
+
     margin-bottom: 5px;
     transition: all .50s ease;
 }
@@ -168,13 +178,15 @@ nav ul li a:hover {
     background: #eca023;
     padding-left: 6px;
     color: #fff;
+    text-decoration: none;
 }
+
+
 
 .brand img{
     width: 70px;
     padding: 10px;
     margin: 10px;
-    
 }
 
 #grupoForm{
