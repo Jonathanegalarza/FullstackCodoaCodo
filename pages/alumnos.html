@@ -19,7 +19,13 @@
                             <img src="/src/grupo1.png" alt="grupo1">
                         </li>
                         <li><a href="../index.html">Inicio</a></li>
-                        <li><a href="/pages/alumnos.html">Alumnos</a></li>
+                        <li><a href="/pages/alumnos.html">Alumnos</a>
+                            <ul>
+                                <li><a href="/pages/agregar.html">Agregar alumnos</a></li>
+                                <li><a href="/pages/alumnos.html">Lista de alumnos</a></li>
+                                <li><a href="/pages/grupos.html">Grupos de trabajo</a></li>
+                            </ul>
+                        </li>
                         <li><a href="/pages/nosotros.html">Nosotros</a></li>
                         <li><a href="/pages/contacto.html">Contacto</a></li>
                         <!--<li><a href="./pages/login.html">Login</a></li>-->
@@ -30,7 +36,6 @@
                 <div class="form">
                         <form id="grupoForm">
                             <h2>Agregar Alumnos</h2>
-                            <br>
                             <input type="text" id="nombre" placeholder="Nombre" required>
                             <input type="text" id="apellido" placeholder="Apellido" required>
                             <input type="email" id="email" placeholder="E-mail" required>
