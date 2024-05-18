@@ -4,9 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--Se linkea el favicon-->
-        <link rel="icon" href="./src/nodejs.svg" type="image/x-icon"/>
+        <link rel="icon" href="/src/nodejs.svg" type="image/x-icon"/>
         <!--Documentos de CSS Linkeado-->
-        <link rel="stylesheet" href="./Design/style.css"/>
+        <link rel="stylesheet" href="/Design/style.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
         <title>Proyecto Curso Fullstack Codo a Codo 2024</title>
     </head>
@@ -16,33 +16,54 @@
                 <nav id="nav">
                      <ul id="ul">
                         <li class="brand">
-                            <img src="./src/grupo1.png" alt="grupo1">
+                            <img src="/src/grupo1.png" alt="grupo1">
                         </li>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="./pages/alumnos.html">Alumnos</a></li>
-                        <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                        <li><a href="./pages/contacto.html">Contacto</a></li>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="/pages/alumnos.html">Alumnos</a></li>
+                        <li><a href="/pages/nosotros.html">Nosotros</a></li>
+                        <li><a href="/pages/contacto.html">Contacto</a></li>
                         <!--<li><a href="./pages/login.html">Login</a></li>-->
                     </ul>
                 </nav>
             </header>
+            <main id="main">
+                <aside id="aside">
+                    <h2>Alumnos</h2>
+                    <br>
+                    <div id="nombreM"></div>
+                    <div id="apellidoM"></div>
+                    <div id="emailM"></div>
+                </aside>
+                <div class="form">
+                    <h2>Agregar Alumnos</h2>
+                        <form id="grupoForm">
+                            <input type="text" id="nombre" placeholder="Nombre" required>
+                            <input type="text" id="apellido" placeholder="Apellido" required>
+                            <input type="email" id="email" placeholder="E-mail" required>
+                            <p>Estoy de acuerdo con <a href="#">Termnos y condiciones</a></p>
+                            <button id="bagregar" onclick="agregarAlumnos()">Agregar</button>
+                        </form>
+                    <button id="crearGrupo" onclick="grupoVisualizacion()">Crear Grupos</button>
+                </div>
+            </main>
+            
             <footer id="footer">
                 <div id="containerfoot">
                     <div id="footer-rows">
                         <div id="footer-links">
                             <h4>Nosotros</h4>
                             <ul>
-                                <li><a href="./pages/mision.html">Mision</a></li>
-                                <li><a href="./pages/vision.html">Vision</a></li>
-                                <li><a href="./pages/politicas.html">Politicas de privacidad</a></li>
+                                <li><a href="/pages/mision.html">Mision</a></li>
+                                <li><a href="/pages/vision.html">Vision</a></li>
+                                <li><a href="/pages/politicas.html">Politicas de privacidad</a></li>
                             </ul>
                         </div>
                         <div id="footer-links">
                             <h4>Menu</h4>
                             <ul id="ul">
-                                <li><a href="./index.html">Inicio</a></li>
-                                <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                                <li><a href="./pages/contacto.html">Contacto</a></li>
+                                <li><a href="../index.html">Inicio</a></li>
+                                <li><a href="/pages/nosotros.html">Nosotros</a></li>
+                                <li><a href="/pages/contacto.html">Contacto</a></li>
                                 <!--<li><a href="./pages/login.html">Login</a></li>-->
                             </ul>
                         </div>
@@ -61,6 +82,6 @@
             </footer>
         </div>
         <!--Documento de JavaScrip Linkeado-->
-        <script src="./Func/index.js"></script>
+        <script src="/Func/index.js"></script>
     </body>
 </html>

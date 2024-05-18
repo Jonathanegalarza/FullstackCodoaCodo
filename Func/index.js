@@ -34,16 +34,16 @@ function agregarAlumnos() {
     var nombre = document.getElementById("nombre").value;
     var apellido = document.getElementById("apellido").value;
     var email = document.getElementById("email").value;
-
     
-    var alumno = { nombre, apellido, email };
-    alumnos.push(alumno);
-
+    if (nombre, apellido, email === ""){
+        alert("No se puede agregar un alumno vacio");
+    }else{
+        var alumno = { nombre, apellido, email };
+        alumnos.push(alumno);
+        document.getElementById("grupoForm").reset();
+        mostrarAlumnos();
+    }
     
-    document.getElementById("grupoForm").reset();
-
-    
-    mostrarAlumnos();
 }
 
 
@@ -56,6 +56,8 @@ function mostrarAlumnos() {
         nuevoAlumno.innerHTML = "<p>" + alumno.nombre + " " + alumno.apellido + "<br>" + alumno.email + "</p>" + "<br>";
         nombreM.appendChild(nuevoAlumno);
     });
+
+    alert("Alumno agregado con exito")
 }
 
 
