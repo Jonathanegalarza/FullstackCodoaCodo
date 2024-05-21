@@ -56,8 +56,6 @@ function mostrarAlumnos() {
         nuevoAlumno.innerHTML = "<p>" + alumno.nombre + " " + alumno.apellido + "<br>" + alumno.email + "</p>" + "<br>";
         nombreM.appendChild(nuevoAlumno);
     });
-
-    alert("Alumno agregado con exito")
 }
 
 

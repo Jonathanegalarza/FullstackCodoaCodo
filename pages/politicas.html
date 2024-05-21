@@ -1,34 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Se linkea el favicon-->
-    <link rel="icon" href="./src/nodejs.svg" type="image/x-icon" />
-    <!--Documentos de CSS Linkeado-->
-    <link rel="stylesheet" href="../Design/normalized.css">
-    <link rel="stylesheet" href="../Design/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <title>Proyecto Curso Fullstack Codo a Codo 2024</title>
-</head>
-
-<body>
-    <div id="container">
-        <header id="header">
-            <nav id="nav">
-                <ul id="ul">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./nosotros.html">Nosotros</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                    <li><a href="./login.html">Login</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main id="main">
-            <article id="principal1">
-                <div class="politicas">
-                    <h2>Política de Privacidad</h2>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Se linkea el favicon-->
+        <link rel="icon" href="/src/nodejs.svg" type="image/x-icon"/>
+        <!--Documentos de CSS Linkeado-->
+        <link rel="stylesheet" href="/Design/style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <title>Proyecto Curso Fullstack Codo a Codo 2024</title>
+    </head>
+    <body>
+        <div id="container">
+            <header id="header">
+                <nav id="nav">
+                        <img class="logo" src="/src/grupo1.png" alt="logo">
+                    <ul id="ul">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="/pages/alumnos.html">Alumnos</a></li>
+                        <li><a href="/pages/nosotros.html">Nosotros</a></li>
+                        <li><a href="/pages/contacto.html">Contacto</a></li>
+                        <!--<li><a href="./pages/login.html">Login</a></li>-->
+                    </ul>
+                </nav>
+            </header>
+            <main id="main">
+            <div>
+                <h2>Política de Privacidad</h2>
                     <p><strong>Última actualización: [16/05/2024]</strong></p>
                     <br>
                     <h3>1. Información que Recopilamos:</h3>
@@ -64,27 +62,34 @@
                     <h3>6. Contacto:</h3>
                     <p>Si tiene alguna pregunta sobre esta Política de Privacidad, puede contactarnos <a href="./contacto.html">Aqui</a></p>
                     <br>
-                </div>
-            </article>
-        </main>
-        <footer id="footer">
-            <div id="containerfoot">
-                <div id="footer-rows">
+            </div>
+            </main>
+            
+            <footer id="footer">
+                <div id="containerfoot">
                     <div id="footer-links">
-                        <h4>Nosotros</h4>
+                        <h4>Inicio</h4>
                         <ul>
-                            <li><a href="./mision.html">Mision</a></li>
-                            <li><a href="./vision.html">Vision</a></li>
-                            <li><a href="./politicas.html">Politicas de privacidad</a></li>
+                            <li><a href="/index.html#Mision">Mision</a></li>
+                            <li><a href="/index.html#Vision">Vision</a></li>
+                            <li><a href="/index.html#Valores">Valores</a></li>
                         </ul>
                     </div>
                     <div id="footer-links">
-                        <h4>Menu</h4>
+                        <h4>Alumnos</h4>
                         <ul>
-                            <li><a href="../index.html">Inicio</a></li>
-                            <li><a href="./nosotros.html">Nosotros</a></li>
-                            <li><a href="./contacto.html">Contacto</a></li>
-                            <li><a href="./login.html">Login</a></li>
+                            <li><a href="/pages/alumnos.html">Agregar Alumnos</a></li>
+                            <li><a href="/pages/alumnos.html#Listado">Listado de Alumnos</a></li>
+                            <li><a href="/pages/alumnos.html#Grupos">Grupos</a></li>
+                            <!--<li><a href="./pages/login.html">Login</a></li>-->
+                        </ul>
+                    </div>
+                    <div id="footer-links">
+                        <h4>Nosotros</h4>
+                        <ul>
+                            <li><a href="#">Gregory Rodriguez</a></li>
+                            <li><a href="#">Jonathan Galarza</a></li>
+                            <li><a href="#">Alejandro Risso</a></li>
                         </ul>
                     </div>
                     <div id="footer-links">
@@ -94,14 +99,12 @@
                             <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
                             <li><a href="#"><i class="fab fa-twitter"></i> X</a></li>
                             <li><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
-                            <li><a href="#"><i class="fab fa-linkedin"></i> Linkedin</a></li>
                         </ul>
                     </div>
                 </div>
-            </div>
-        </footer>
-    </div>
-</body>
-
+            </footer>
+        </div>
+        <!--Documento de JavaScrip Linkeado-->
+        <script src="/Func/index.js"></script>
+    </body>
 </html>
-

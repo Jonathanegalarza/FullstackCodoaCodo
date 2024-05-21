@@ -14,18 +14,10 @@
         <div id="container">
             <header id="header">
                 <nav id="nav">
+                        <img class="logo" src="/src/grupo1.png" alt="logo">
                     <ul id="ul">
-                        <li class="brand">
-                            <img src="/src/grupo1.png" alt="grupo1">
-                        </li>
                         <li><a href="../index.html">Inicio</a></li>
-                        <li><a href="/pages/alumnos.html">Alumnos</a>
-                            <ul>
-                                <li><a href="/pages/agregar.html">Agregar alumnos</a></li>
-                                <li><a href="/pages/alumnos.html">Lista de alumnos</a></li>
-                                <li><a href="/pages/grupos.html">Grupos de trabajo</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="/pages/alumnos.html">Alumnos</a></li>
                         <li><a href="/pages/nosotros.html">Nosotros</a></li>
                         <li><a href="/pages/contacto.html">Contacto</a></li>
                         <!--<li><a href="./pages/login.html">Login</a></li>-->
@@ -33,6 +25,14 @@
                 </nav>
             </header>
             <main id="main">
+                <aside id="aside">
+                    <h2>Alumnos</h2>
+                    <br>
+                    <div id="nombreM"></div>
+                    <div id="apellidoM"></div>
+                    <div id="emailM"></div>
+                </aside>
+                
                 <div class="form">
                         <form id="grupoForm">
                             <h2>Agregar Alumnos</h2>
@@ -41,8 +41,9 @@
                             <input type="email" id="email" placeholder="E-mail" required>
                             <p>Estoy de acuerdo con <a href="./politicas.html">Terminos y condiciones</a></p>
                             <button id="bagregar" onclick="agregarAlumnos()">Agregar</button>
+                            <button id="crearGrupo" onclick="grupoVisualizacion()">Crear Grupos</button>
                         </form>
-                    <!--<button id="crearGrupo" onclick="grupoVisualizacion()">Crear Grupos</button>-->
+
                 </div>
             </main>
             
@@ -51,27 +52,27 @@
                     <div id="footer-links">
                         <h4>Inicio</h4>
                         <ul>
-                            <li><a href="/pages/mision.html">Mision</a></li>
-                            <li><a href="/pages/vision.html">Vision</a></li>
-                            <li><a href="/pages/politicas.html">Politicas de privacidad</a></li>
+                            <li><a href="/index.html#Mision">Mision</a></li>
+                            <li><a href="/index.html#Vision">Vision</a></li>
+                            <li><a href="/index.html#Valores">Valores</a></li>
                         </ul>
                     </div>
                     <div id="footer-links">
                         <h4>Alumnos</h4>
                         <ul>
-                             <li><a href="/pages/agregar.html">Agregar Alumnos</a></li>
-                             <li><a href="/pages/nosotros.html">Listado de Alumnos</a></li>
-                            <li><a href="/pages/contacto.html">Grupos</a></li>
-                             <!--<li><a href="./pages/login.html">Login</a></li>-->
+                            <li><a href="/pages/alumnos.html">Agregar Alumnos</a></li>
+                            <li><a href="/pages/alumnos.html#Listado">Listado de Alumnos</a></li>
+                            <li><a href="/pages/alumnos.html#Grupos">Grupos</a></li>
+                            <!--<li><a href="./pages/login.html">Login</a></li>-->
                         </ul>
                     </div>
-                     <div id="footer-links">
+                    <div id="footer-links">
                         <h4>Nosotros</h4>
                         <ul>
-                             <li><a href="#">Gregory Rodriguez</a></li>
-                             <li><a href="#">Jonathan Galarza</a></li>
-                             <li><a href="#">Alejandro Risso</a></li>
-                         </ul>
+                            <li><a href="#">Gregory Rodriguez</a></li>
+                            <li><a href="#">Jonathan Galarza</a></li>
+                            <li><a href="#">Alejandro Risso</a></li>
+                        </ul>
                     </div>
                     <div id="footer-links">
                         <h4>Siguenos</h4>
