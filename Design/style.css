@@ -1,3 +1,5 @@
+@media (max-width: 480px){
+    
 *{
     margin: 0;
     padding: 0;
@@ -84,28 +86,23 @@
 }
 
 #header {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
     padding: 30px 10%;
 }
 
 .logo{
     width: 10%;
     height: 10%;
-    cursor: pointer;
 }
 
 .logo img{
-    width: 100%;
-    height: 100px;
-    margin: 100px;
+    width: 10%;
 }
 
 #nav{
     display: flex;
-    flex-wrap: wrap;
     flex-flow: row;
+    justify-content: space-between;
+    width: 100%;
 }
 
 #nav ul{
@@ -113,18 +110,17 @@
 }
 
 #nav ul li{
-    display: inline-block;
-    padding: 40px;
-    margin: 10px;
-    transition: all .2s ease;
-    border-radius: 10px;
+    display: inline;
+    padding: 5px;
+    margin: 5px;
 }
 
 
 #nav ul li a{
-    float: left;
-    font-size: 30px;
-    margin: 20px;
+
+    text-align: justify;
+    font-size: 10px;
+    margin: 10px;
     text-decoration: none;
     color: gray;
     transition: all .1s ease;
@@ -132,7 +128,7 @@
 
 #nav ul li a:hover{
     color: #000;
-    text-decoration: none;
+    font-size: 12px;
 }
 
 .group {
@@ -151,48 +147,45 @@
 
 
 #footer{
+    width: 100%;
     background: #000;
-    margin-top: 100px;
+    margin: auto;
     text-decoration: none;
 }
 
 #containerfoot{
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
+    text-align: center;
     padding: 20px;
-    flex-flow: wrap;
-    margin: 50px;
+    margin: auto;
 }
 
 
 #footer-links ul{
+    margin: auto;
     list-style: none;
-    overflow: hidden;
 }
 
 #footer-links ul li {
     font-family: Arial, Helvetica, sans-serif;;
     font-size: 20px;
     padding: 5px;
-    margin: 10px;
+    margin: auto;
 }
 
 #footer-links h4{
+    padding: 10px;
+    margin: auto;
     font-size: 20px;
     color: #fff;
-    margin-bottom: 25px;
-    font-weight: 500;
-    padding-bottom: 10px;
-    display: inline-block;
+    display: block;
 }
 
 #footer-links ul li a{
+    margin: auto;
+    padding: 30px;
     font-size: 16px;
     color: #bbbbbb ;
     text-decoration: none;
-
-    margin-bottom: 5px;
     transition: all .50s ease;
 }
 
@@ -204,7 +197,7 @@
 }
 
 #grupoForm{
-    width: 25%;
+    width: 60%;
     padding: 30px 15px;
     display: flex;
     flex-wrap: wrap;
@@ -212,38 +205,784 @@
 
 #main{
     display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    padding-bottom: 30px;
 }
 
 #aside{
-    width: auto;
-    margin-left: 150px;
+    width: 100%;
+    padding: 30px;
+    margin: 30px;
 }
 
 #aside ul{
     list-style: none;
 }
 
-#aside ul li {
-    display: block;
+#seccion{
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+}
+
+article{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+#seccion article p{
+    text-justify: inter-word;
+}
+
+
+#nav ul ul{
+    display: none;
+}
+
+
+}
+
+/*Medida tablets*/
+@media (min-width: 481px) and (max-width: 768px){
+        
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+#grupoForm{
+    width: 80%;
+    padding: 30px;
+    background: #24303c;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+#grupoForm h2{
+    font-size: 22px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+#grupoForm p{
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+#grupoForm a{
+    color: white;
+    text-decoration: underline;
+}
+
+#grupoForm a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+#bagregar, #crearGrupo, #btEnviar{
+    width: 100%;
+    padding: 12px;
+    background: #1f53c5;
+    border: none;
+    margin: 16px;
+    border-radius: 4px;
+    color: #bbbbbb;;
+    font-size: 16px;
+    cursor: pointer;
     transition: all .2s ease;
 }
 
+#bagregar:hover{
+    color: white;
+}
 
-#aside ul li a{
+#crearGrupo:hover{
+    color: white;
+}
+
+#btEnviar:hover{
+    color: white;
+}
+
+#nombre, #apellido, #email, #consulta{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid #1f53c5;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 18px;
+}
+
+#container{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+#header {
+    padding: 30px 10%;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+}
+
+.logo img{
+    width: 10%;
+}
+
+#nav{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#nav ul{
+    list-style: none;
+}
+
+#nav ul li{
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+#nav ul li a{
+
+    text-align: justify;
+    font-size: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: gray;
+    transition: all .1s ease;
+}
+
+#nav ul li a:hover{
+    color: #000;
+    font-size: 12px;
+}
+
+.group {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#principal{
+    padding: 20px;
+    margin: 2px;
+    border: 2px solid black;
+    width: auto;
+}
+
+
+
+#footer{
+    width: 100%;
+    background: #000;
+    margin: auto;
+    text-decoration: none;
+}
+
+#containerfoot{
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+
+
+#footer-links ul{
+    margin: auto;
+    list-style: none;
+}
+
+#footer-links ul li {
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 20px;
+    padding: 5px;
+    margin: auto;
+}
+
+#footer-links h4{
+    padding: 10px;
+    margin: auto;
+    font-size: 20px;
+    color: #fff;
+    display: block;
+}
+
+#footer-links ul li a{
+    margin: auto;
+    padding: 30px;
+    font-size: 16px;
+    color: #bbbbbb ;
+    text-decoration: none;
+    transition: all .50s ease;
+}
+
+#footer-links ul li a:hover {
+    background: #1f53c5;
+    padding-left: 6px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#grupoForm{
+    width: 60%;
+    padding: 30px 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+#aside{
+    width: 100%;
     padding: 30px;
     margin: 30px;
-    display: block;
-    text-decoration: none;
-    color: #ccc;
-    background: #1f53c5;
-    transition: all .1s ease;
-    border-radius: 20px;
 }
 
-#aside ul li a:hover{
-    color: #fff;
+#aside ul{
+    list-style: none;
 }
 
-.sub1{
+#seccion{
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+}
+
+article{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+#seccion article p{
+    text-justify: inter-word;
+}
+
+
+#nav ul ul{
     display: none;
+}
+
+}
+
+/*Medida laptop*/
+@media (min-width: 769px) and (max-width: 1200px){
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing:border-box;
+    }
+    
+    
+    #grupoForm{
+        width: 80%;
+        padding: 30px;
+        background: #24303c;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 4px;
+        font-family:'Times New Roman', Times, serif;
+        color: white;
+        box-shadow: 7px 13px 37px #000;
+    }
+    
+    #grupoForm h2{
+        font-size: 22px;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+    
+    #grupoForm p{
+        height: 50px;
+        margin: auto;
+        text-align: center;
+        font-size: 15px;
+        line-height: 40px;
+    }
+    
+    #grupoForm a{
+        color: white;
+        text-decoration: underline;
+    }
+    
+    #grupoForm a:hover{
+        color: white;
+        text-decoration: underline;
+    }
+    
+    #bagregar, #crearGrupo, #btEnviar{
+        width: 100%;
+        padding: 12px;
+        background: #1f53c5;
+        border: none;
+        margin: 16px;
+        border-radius: 4px;
+        color: #bbbbbb;;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all .2s ease;
+    }
+    
+    #bagregar:hover{
+        color: white;
+    }
+    
+    #crearGrupo:hover{
+        color: white;
+    }
+    
+    #btEnviar:hover{
+        color: white;
+    }
+    
+    #nombre, #apellido, #email, #consulta{
+        width: 100%;
+        background: #24303c;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        border: 1px solid #1f53c5;
+        font-family:'Times New Roman', Times, serif ;
+        font-size: 20px;
+    }
+    
+    #container{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+    }
+    
+    #header {
+        padding: 30px 10%;
+    }
+    
+    .logo{
+        width: 10%;
+        height: 10%;
+    }
+    
+    .logo img{
+        width: 10%;
+    }
+    
+    #nav{
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    #nav ul{
+        list-style: none;
+    }
+    
+    #nav ul li{
+        display: inline;
+        padding: 5px;
+        margin: 5px;
+    }
+    
+    
+    #nav ul li a{
+    
+        text-align: justify;
+        font-size: 22px;
+        margin: auto;
+        text-decoration: none;
+        color: gray;
+        transition: all .1s ease;
+    }
+    
+    #nav ul li a:hover{
+        color: #000;
+        font-size: 24px;
+    }
+    
+    .group {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #principal{
+        padding: 20px;
+        margin: 2px;
+        border: 2px solid black;
+        width: auto;
+    }
+    
+    
+    
+    #footer{
+        width: 100%;
+        background: #000;
+        margin: auto;
+        text-decoration: none;
+    }
+    
+    #containerfoot{
+        text-align: center;
+        padding: 20px;
+        margin: auto;
+    }
+    
+    
+    #footer-links ul{
+        margin: auto;
+        list-style: none;
+    }
+    
+    #footer-links ul li {
+        font-family: Arial, Helvetica, sans-serif;;
+        font-size: 24px;
+        padding: 5px;
+        margin: auto;
+    }
+    
+    #footer-links h4{
+        padding: 10px;
+        margin: auto;
+        font-size: 24px;
+        color: #fff;
+        display: block;
+    }
+    
+    #footer-links ul li a{
+        margin: auto;
+        padding: 30px;
+        font-size: 20px;
+        color: #bbbbbb ;
+        text-decoration: none;
+        transition: all .50s ease;
+    }
+    
+    #footer-links ul li a:hover {
+        background: #1f53c5;
+        padding-left: 6px;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    #grupoForm{
+        width: 60%;
+        padding: 30px 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #main{
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+    
+    #aside{
+        width: 100%;
+        padding: 30px;
+        margin: 30px;
+    }
+    
+    #aside ul{
+        list-style: none;
+    }
+    
+    #seccion{
+        text-align: justify;
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    article{
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        font-size: 24px;
+    }
+    
+    #seccion p{
+        font-size: 24px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    
+    
+    #nav ul ul{
+        display: none;
+    }
+    
+}
+
+/*PC + TV*/
+@media (min-width: 1200px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing:border-box;
+    }
+    
+    
+    #grupoForm{
+        width: 80%;
+        padding: 30px;
+        background: #24303c;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 4px;
+        font-family:'Times New Roman', Times, serif;
+        color: white;
+        box-shadow: 7px 13px 37px #000;
+    }
+    
+    #grupoForm h2{
+        font-size: 25px;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+    
+    #grupoForm p{
+        height: 50px;
+        margin: auto;
+        text-align: center;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    
+    #grupoForm a{
+        color: white;
+        text-decoration: underline;
+    }
+    
+    #grupoForm a:hover{
+        color: white;
+        text-decoration: underline;
+    }
+    
+    #bagregar, #crearGrupo, #btEnviar{
+        width: 100%;
+        padding: 12px;
+        background: #1f53c5;
+        border: none;
+        margin: 16px;
+        border-radius: 4px;
+        color: #bbbbbb;;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all .2s ease;
+    }
+    
+    #bagregar:hover{
+        color: white;
+    }
+    
+    #crearGrupo:hover{
+        color: white;
+    }
+    
+    #btEnviar:hover{
+        color: white;
+    }
+    
+    #nombre, #apellido, #email, #consulta{
+        width: 100%;
+        background: #24303c;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        border: 1px solid #1f53c5;
+        font-family:'Times New Roman', Times, serif ;
+        font-size: 20px;
+    }
+    
+    #container{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+    }
+    
+    #header {
+        padding: 30px 10%;
+    }
+    
+    .logo{
+        width: 10%;
+        height: 10%;
+    }
+    
+    .logo img{
+        width: 10%;
+    }
+    
+    #nav{
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    #nav ul{
+        list-style: none;
+    }
+    
+    #nav ul li{
+        display: inline;
+        padding: 5px;
+        margin: 5px;
+    }
+    
+    
+    #nav ul li a{
+    
+        text-align: justify;
+        font-size: 30px;
+        margin: auto;
+        text-decoration: none;
+        color: gray;
+        transition: all .1s ease;
+    }
+    
+    #nav ul li a:hover{
+        color: #000;
+        font-size: 24px;
+    }
+    
+    .group {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    
+    
+    #footer{
+        width: 100%;
+        background: #000;
+        margin: auto;
+        text-decoration: none;
+    }
+    
+    #containerfoot{
+        text-align: center;
+        padding: 20px;
+        margin: auto;
+    }
+    
+    
+    #footer-links ul{
+        margin: auto;
+        list-style: none;
+    }
+    
+    #footer-links ul li {
+        font-family: Arial, Helvetica, sans-serif;;
+        font-size: 30px;
+        padding: 10px;
+        margin: auto;
+    }
+    
+    #footer-links h4{
+        padding: 10px;
+        margin: auto;
+        font-size: 24px;
+        color: #fff;
+        display: block;
+    }
+    
+    #footer-links ul li a{
+        margin: auto;
+        padding: 30px;
+        font-size: 20px;
+        color: #bbbbbb ;
+        text-decoration: none;
+        transition: all .50s ease;
+    }
+    
+    #footer-links ul li a:hover {
+        background: #1f53c5;
+        padding-left: 6px;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    #grupoForm{
+        width: 60%;
+        padding: 30px 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #main{
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+    
+    #aside{
+        width: 100%;
+        padding: 30px;
+        margin: 30px;
+    }
+    
+    #aside ul{
+        list-style: none;
+    }
+
+    
+    #seccion{
+        text-align: justify;
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    article{
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    
+    #seccion p{
+        text-align: justify;
+        font-size: 30px;
+        text-justify: inter-word;
+    }
+    
+    
+    #nav ul ul{
+        display: none;
+    }
+    
+}
+
 }

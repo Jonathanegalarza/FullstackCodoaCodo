@@ -4,11 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--Se linkea el favicon-->
-        <link rel="icon" href="/src/nodejs.svg" type="image/x-icon"/>
+        <link rel="icon" href="/src/grupo1.png" type="image/x-icon"/>
         <!--Documentos de CSS Linkeado-->
         <link rel="stylesheet" href="/Design/style.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-        <title>Proyecto Curso Fullstack Codo a Codo 2024</title>
+        <title>AlumnAPP</title>
     </head>
     <body>
         <div id="container">
@@ -25,6 +25,18 @@
                 </nav>
             </header>
             <main id="main">
+                <div class="form">
+                    <form id="grupoForm">
+                        <h2>Agregar Alumnos</h2>
+                        <input type="text" id="nombre" placeholder="Nombre" required>
+                        <input type="text" id="apellido" placeholder="Apellido" required>
+                        <input type="email" id="email" placeholder="E-mail" required>
+                        <p><a href="./politicas.html">Terminos y condiciones</a></p>
+                        <br>
+                        <button id="bagregar" onclick="agregarAlumnos()">Agregar</button>
+                        <button id="crearGrupo" onclick="grupoVisualizacion()">Crear Grupos</button>
+                    </form>
+                </div>
                 <aside id="aside">
                     <h2>Alumnos</h2>
                     <br>
@@ -32,19 +44,6 @@
                     <div id="apellidoM"></div>
                     <div id="emailM"></div>
                 </aside>
-                
-                <div class="form">
-                        <form id="grupoForm">
-                            <h2>Agregar Alumnos</h2>
-                            <input type="text" id="nombre" placeholder="Nombre" required>
-                            <input type="text" id="apellido" placeholder="Apellido" required>
-                            <input type="email" id="email" placeholder="E-mail" required>
-                            <p>Estoy de acuerdo con <a href="./politicas.html">Terminos y condiciones</a></p>
-                            <button id="bagregar" onclick="agregarAlumnos()">Agregar</button>
-                            <button id="crearGrupo" onclick="grupoVisualizacion()">Crear Grupos</button>
-                        </form>
-
-                </div>
             </main>
             
             <footer id="footer">
