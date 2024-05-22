@@ -59,14 +59,17 @@
 
 #bagregar:hover{
     color: white;
+    padding: 14px;
 }
 
 #crearGrupo:hover{
     color: white;
+    padding: 14px;
 }
 
 #btEnviar:hover{
     color: white;
+    padding: 14px;
 }
 
 #nombre, #apellido, #email, #consulta, #dni{
@@ -305,14 +308,17 @@ article{
 
 #bagregar:hover{
     color: white;
+    padding: 14px;
 }
 
 #crearGrupo:hover{
     color: white;
+    padding: 14px;
 }
 
 #btEnviar:hover{
     color: white;
+    padding: 14px;
 }
 
 #nombre, #apellido, #email, #consulta, #dni{
@@ -555,14 +561,17 @@ article{
     
     #bagregar:hover{
         color: white;
+        padding: 14px;
     }
     
     #crearGrupo:hover{
         color: white;
+        padding: 14px;
     }
     
     #btEnviar:hover{
         color: white;
+        padding: 14px;
     }
     
     #nombre, #apellido, #email, #consulta, #dni{
@@ -808,18 +817,18 @@ article{
     
     #bagregar:hover{
         color: white;
-        width: 92%;
+        padding: 14px;
     }
     
     
     #crearGrupo:hover{
         color: white;
-        width: 92%;
+        padding: 14px;
     }
     
     #btEnviar:hover{
         color: white;
-        width: 92%;
+        padding: 14px;
     }
     
     #nombre, #apellido, #email, #consulta, #dni{
