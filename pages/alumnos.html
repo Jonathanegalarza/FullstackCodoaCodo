@@ -28,18 +28,21 @@
                 <div class="form">
                     <form id="grupoForm">
                         <h2>Agregar Alumnos</h2>
+                        <input type="text" id="dni" placeholder="DNI" required>
                         <input type="text" id="nombre" placeholder="Nombre" required>
                         <input type="text" id="apellido" placeholder="Apellido" required>
                         <input type="email" id="email" placeholder="E-mail" required>
                         <p><a href="./politicas.html">Terminos y condiciones</a></p>
-                        <br>
+                       
                         <button id="bagregar" onclick="agregarAlumnos()">Agregar</button>
+                       
                         <button id="crearGrupo" onclick="grupoVisualizacion()">Crear Grupos</button>
                     </form>
                 </div>
                 <aside id="aside">
                     <h2>Alumnos</h2>
                     <br>
+                    <div id="dniM"></div>
                     <div id="nombreM"></div>
                     <div id="apellidoM"></div>
                     <div id="emailM"></div>
@@ -65,27 +68,53 @@
                             <!--<li><a href="./pages/login.html">Login</a></li>-->
                         </ul>
                     </div>
-                    <div id="footer-links">
-                        <h4>Nosotros</h4>
-                        <ul>
-                            <li><a href="#">Gregory Rodriguez</a></li>
-                            <li><a href="#">Jonathan Galarza</a></li>
-                            <li><a href="#">Alejandro Risso</a></li>
-                        </ul>
-                    </div>
-                    <div id="footer-links">
-                        <h4>Siguenos</h4>
-                        <ul>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i> X</a></li>
-                            <li><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
-                        </ul>
-                    </div>
+            
+                    <footer id="footer">
+                        <div id="containerfoot">
+                            <div id="footer-links">
+                                <h4>Inicio</h4>
+                                <ul>
+                                    <li><a href="#Mision">Mision</a></li>
+                                    <li><a href="#Vision">Vision</a></li>
+                                    <li><a href="#Valores">Valores</a></li>
+                                </ul>
+                            </div>
+                            <div id="footer-links">
+                                <h4>Alumnos</h4>
+                                <ul>
+                                    <li><a href="/pages/alumnos.html">Agregar Alumnos</a></li>
+                                    <li><a href="/pages/alumnos.html#Listado">Listado de Alumnos</a></li>
+                                    <li><a href="/pages/alumnos.html#Grupos">Grupos</a></li>
+                                    <!--<li><a href="./pages/login.html">Login</a></li>-->
+                                </ul>
+                            </div>
+                            <div id="footer-links">
+                                <h4>Nosotros</h4>
+                                <ul>
+                                    <li><a href="/pages/nosotros.html#Gregory">Gregory Rodriguez</a></li>
+                                    <li><a href="/pages/nosotros.html#Jonathan">Jonathan Galarza</a></li>
+                                    <li><a href="/pages/nosotros.html#Alejandro">Alejandro Risso</a></li>
+                                </ul>
+                            </div>
+                            <div id="footer-links">
+                                <h4>Siguenos</h4>
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i> X</a></li>
+                                    <li><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
+                                </ul>
+                            </div>
+                            <div class="marca">
+                                <p>Terminos y condiciones - <a href="/pages/politicas.html">Politicas de privacidad</a></p>
+                                <br>
+                                <p>© 2024 AlumnAPP Todos los derechos reservados.</p>
+                            </div>
+                        </div>
+                    </footer>
                 </div>
-            </footer>
-        </div>
-        <!--Documento de JavaScrip Linkeado-->
-        <script src="/Func/index.js"></script>
-    </body>
-</html>
+                <!--Documento de JavaScrip Linkeado-->
+                <script src="/Func/index.js"></script>
+            </body>
+        </html>
+        

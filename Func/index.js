@@ -1,44 +1,16 @@
-/*document.addEventListener("DOMContentLoaded", function() {
-    const grupoForm = document.getElementById('grupoForm');
-    const crearGrupo = document.getElementById('crearGrupo');
-    const grupoVisualizacion = document.getElementById('grupoVisualizacion');
-    let participantes = [];
-
-})
-
-const agregarAlumnos = () => {
-    var participantes = [];
-
-    var nombre = document.getElementById('nombre').value.trim();
-    var apellido = document.getElementById('apellido').value.trim();
-    var email = document.getElementById('email').value.toLowerCase().trim();
-
-    participantes.push({ nombre, apellido, email });
-    window.localStorage.setItem('Nombre', nombre);
-    window.localStorage.setItem('Apellido', apellido);
-    window.localStorage.setItem('Email', email);
-    
-    grupoForm.reset();
-    console.log(participantes);
-    document.getElementById("nombreM").innerHTML = localStorage.getItem('Nombre')
-    document.getElementById("apellidoM").innerHTML = localStorage.getItem('Apellido');
-    document.getElementById("emailM").innerHTML = localStorage.getItem('Email')
-}
-*/
-
 let alumnos = [];
 
     
 function agregarAlumnos() {
-    
+    var dni = document.getElementById("dni").value;
     var nombre = document.getElementById("nombre").value;
     var apellido = document.getElementById("apellido").value;
     var email = document.getElementById("email").value;
     
-    if (nombre, apellido, email === ""){
+    if (dni, nombre, apellido, email === ""){
         alert("No se puede agregar un alumno vacio");
     }else{
-        var alumno = { nombre, apellido, email };
+        var alumno = { dni, nombre, apellido, email };
         alumnos.push(alumno);
         document.getElementById("grupoForm").reset();
         mostrarAlumnos();
@@ -53,7 +25,7 @@ function mostrarAlumnos() {
 
     alumnos.forEach(function(alumno) {
         var nuevoAlumno = document.createElement("div");
-        nuevoAlumno.innerHTML = "<p>" + alumno.nombre + " " + alumno.apellido + "<br>" + alumno.email + "</p>" + "<br>";
+        nuevoAlumno.innerHTML = "<p>" + alumno.dni + "<br>" + alumno.nombre + " " + alumno.apellido + "<br>" + alumno.email + "</p>" + "<br>";
         nombreM.appendChild(nuevoAlumno);
     });
 }

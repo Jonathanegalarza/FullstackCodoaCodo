@@ -1,6 +1,8 @@
 @media (max-width: 480px){
     
 *{
+    
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing:border-box;
@@ -14,12 +16,12 @@
     margin: auto;
     margin-top: 50px;
     border-radius: 4px;
-    font-family:'Times New Roman', Times, serif;
     color: white;
     box-shadow: 7px 13px 37px #000;
 }
 
 #grupoForm h2{
+
     font-size: 22px;
     margin: auto;
     padding-bottom: 30px;
@@ -58,24 +60,27 @@
 
 #bagregar:hover{
     color: white;
+    padding: 14px;
 }
+
 
 #crearGrupo:hover{
     color: white;
+    padding: 14px;
 }
 
 #btEnviar:hover{
     color: white;
+    padding: 14px;
 }
 
-#nombre, #apellido, #email, #consulta{
+#nombre, #apellido, #email, #consulta, #dni{
     width: 100%;
     background: #24303c;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 20px;
     border: 1px solid #1f53c5;
-    font-family:'Times New Roman', Times, serif ;
     font-size: 18px;
 }
 
@@ -87,6 +92,7 @@
 
 #header {
     padding: 30px 10%;
+    background: #000;
 }
 
 .logo{
@@ -115,7 +121,6 @@
     margin: 5px;
 }
 
-
 #nav ul li a{
 
     text-align: justify;
@@ -127,24 +132,9 @@
 }
 
 #nav ul li a:hover{
-    color: #000;
+    color: #fff;
     font-size: 12px;
 }
-
-.group {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-#principal{
-    padding: 20px;
-    margin: 2px;
-    border: 2px solid black;
-    width: auto;
-}
-
-
 
 #footer{
     width: 100%;
@@ -166,7 +156,6 @@
 }
 
 #footer-links ul li {
-    font-family: Arial, Helvetica, sans-serif;;
     font-size: 20px;
     padding: 5px;
     margin: auto;
@@ -190,8 +179,17 @@
 }
 
 #footer-links ul li a:hover {
-    background: #1f53c5;
     padding-left: 6px;
+    color: #fff;
+}
+
+.marca{
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+}
+
+.marca a{
     color: #fff;
     text-decoration: none;
 }
@@ -234,6 +232,11 @@ article{
     font-size: 20px;
 }
 
+article h2{
+    margin: 30px auto;
+}
+
+
 #seccion article p{
     text-justify: inter-word;
 }
@@ -243,6 +246,12 @@ article{
     display: none;
 }
 
+.politicas{
+    text-align: justify;
+    width: 100%;
+    padding: 50px;
+    margin: 10px auto;
+}
 
 }
 
@@ -253,6 +262,7 @@ article{
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -263,7 +273,6 @@ article{
     margin: auto;
     margin-top: 50px;
     border-radius: 4px;
-    font-family:'Times New Roman', Times, serif;
     color: white;
     box-shadow: 7px 13px 37px #000;
 }
@@ -307,17 +316,20 @@ article{
 
 #bagregar:hover{
     color: white;
+    padding: 14px;
 }
 
 #crearGrupo:hover{
     color: white;
+    padding: 14px;
 }
 
 #btEnviar:hover{
     color: white;
+    padding: 14px;
 }
 
-#nombre, #apellido, #email, #consulta{
+#nombre, #apellido, #email, #consulta, #dni{
     width: 100%;
     background: #24303c;
     padding: 10px;
@@ -336,6 +348,7 @@ article{
 
 #header {
     padding: 30px 10%;
+    background: #000;
 }
 
 .logo{
@@ -376,24 +389,9 @@ article{
 }
 
 #nav ul li a:hover{
-    color: #000;
+    color: #fff;
     font-size: 12px;
 }
-
-.group {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-#principal{
-    padding: 20px;
-    margin: 2px;
-    border: 2px solid black;
-    width: auto;
-}
-
-
 
 #footer{
     width: 100%;
@@ -415,7 +413,6 @@ article{
 }
 
 #footer-links ul li {
-    font-family: Arial, Helvetica, sans-serif;;
     font-size: 20px;
     padding: 5px;
     margin: auto;
@@ -439,10 +436,19 @@ article{
 }
 
 #footer-links ul li a:hover {
-    background: #1f53c5;
     padding-left: 6px;
     color: #fff;
+}
+
+.marca{
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+}
+
+.marca a{
     text-decoration: none;
+    color: #fff;
 }
 
 #grupoForm{
@@ -483,6 +489,11 @@ article{
     font-size: 20px;
 }
 
+article h2{
+    margin: 30px auto;
+}
+
+
 #seccion article p{
     text-justify: inter-word;
 }
@@ -491,6 +502,15 @@ article{
 #nav ul ul{
     display: none;
 }
+
+
+.politicas{
+    text-align: justify;
+    width: 100%;
+    padding: 50px;
+    margin: 10px auto;
+}
+
 
 }
 
@@ -501,6 +521,7 @@ article{
         margin: 0;
         padding: 0;
         box-sizing:border-box;
+        font-family: 'Times New Roman', Times, serif;
     }
     
     
@@ -511,7 +532,6 @@ article{
         margin: auto;
         margin-top: 50px;
         border-radius: 4px;
-        font-family:'Times New Roman', Times, serif;
         color: white;
         box-shadow: 7px 13px 37px #000;
     }
@@ -555,24 +575,26 @@ article{
     
     #bagregar:hover{
         color: white;
+        padding: 14px;
     }
     
     #crearGrupo:hover{
         color: white;
+        padding: 14px;
     }
     
     #btEnviar:hover{
         color: white;
+        padding: 14px;
     }
     
-    #nombre, #apellido, #email, #consulta{
+    #nombre, #apellido, #email, #consulta, #dni{
         width: 100%;
         background: #24303c;
         padding: 10px;
         border-radius: 4px;
         margin-bottom: 20px;
         border: 1px solid #1f53c5;
-        font-family:'Times New Roman', Times, serif ;
         font-size: 20px;
     }
     
@@ -584,6 +606,7 @@ article{
     
     #header {
         padding: 30px 10%;
+        background: #000;
     }
     
     .logo{
@@ -624,24 +647,9 @@ article{
     }
     
     #nav ul li a:hover{
-        color: #000;
+        color: #fff;
         font-size: 24px;
     }
-    
-    .group {
-        border: 1px solid #ccc;
-        padding: 10px;
-        margin-bottom: 10px;
-    }
-    
-    #principal{
-        padding: 20px;
-        margin: 2px;
-        border: 2px solid black;
-        width: auto;
-    }
-    
-    
     
     #footer{
         width: 100%;
@@ -663,7 +671,6 @@ article{
     }
     
     #footer-links ul li {
-        font-family: Arial, Helvetica, sans-serif;;
         font-size: 24px;
         padding: 5px;
         margin: auto;
@@ -687,10 +694,20 @@ article{
     }
     
     #footer-links ul li a:hover {
-        background: #1f53c5;
         padding-left: 6px;
         color: #fff;
+    }
+
+
+    .marca{
+        padding: 10px;
+        margin: 10px;
+        color: #fff;
+    }
+
+    .marca a{
         text-decoration: none;
+        color: #fff;
     }
     
     #grupoForm{
@@ -730,6 +747,10 @@ article{
         padding-bottom: 20px;
         font-size: 24px;
     }
+
+    article h2{
+        margin: 30px auto;
+    }
     
     #seccion p{
         font-size: 24px;
@@ -741,12 +762,22 @@ article{
     #nav ul ul{
         display: none;
     }
+
     
+    .politicas{
+        text-align: justify;
+        width: 100%;
+        padding: 50px;
+        margin: 10px auto;
+    }
+
 }
 
 /*PC + TV*/
 @media (min-width: 1200px){
     *{
+        
+        font-family: Arial, Helvetica, sans-serif;
         margin: 0;
         padding: 0;
         box-sizing:border-box;
@@ -760,7 +791,6 @@ article{
         margin: auto;
         margin-top: 50px;
         border-radius: 4px;
-        font-family:'Times New Roman', Times, serif;
         color: white;
         box-shadow: 7px 13px 37px #000;
     }
@@ -789,12 +819,14 @@ article{
         text-decoration: underline;
     }
     
+    
     #bagregar, #crearGrupo, #btEnviar{
-        width: 100%;
+        width: 90%;
+        align-content: center;
         padding: 12px;
         background: #1f53c5;
         border: none;
-        margin: 16px;
+        margin: 10px auto;
         border-radius: 4px;
         color: #bbbbbb;;
         font-size: 16px;
@@ -804,24 +836,27 @@ article{
     
     #bagregar:hover{
         color: white;
+        padding: 14px;
     }
+    
     
     #crearGrupo:hover{
         color: white;
+        padding: 14px;
     }
     
     #btEnviar:hover{
         color: white;
+        padding: 14px;
     }
     
-    #nombre, #apellido, #email, #consulta{
+    #nombre, #apellido, #email, #consulta, #dni{
         width: 100%;
         background: #24303c;
         padding: 10px;
         border-radius: 4px;
         margin-bottom: 20px;
         border: 1px solid #1f53c5;
-        font-family:'Times New Roman', Times, serif ;
         font-size: 20px;
     }
     
@@ -833,6 +868,7 @@ article{
     
     #header {
         padding: 30px 10%;
+        background: #000;
     }
     
     .logo{
@@ -869,12 +905,12 @@ article{
         margin: auto;
         text-decoration: none;
         color: gray;
-        transition: all .1s ease;
+        transition: all .3s ease;
     }
     
     #nav ul li a:hover{
-        color: #000;
-        font-size: 24px;
+        color: #fff;
+        font-size: 35px;
     }
     
     .group {
@@ -904,7 +940,6 @@ article{
     }
     
     #footer-links ul li {
-        font-family: Arial, Helvetica, sans-serif;;
         font-size: 30px;
         padding: 10px;
         margin: auto;
@@ -928,12 +963,19 @@ article{
     }
     
     #footer-links ul li a:hover {
-        background: #1f53c5;
-        padding-left: 6px;
+        padding-left: 20px;
         color: #fff;
-        text-decoration: none;
+    }
+    .marca{
+        padding: 10px;
+        margin: 10px;
+        color: #fff;
     }
     
+    .marca a{
+        color: #fff;
+    }
+
     #grupoForm{
         width: 60%;
         padding: 30px 15px;
@@ -963,7 +1005,7 @@ article{
     #seccion{
         text-align: justify;
         width: 80%;
-        margin: 0 auto;
+        margin: 20px auto;
     }
     
     article{
@@ -971,6 +1013,11 @@ article{
         margin: 0 auto;
         padding-bottom: 20px;
     }
+
+    article h2{
+        margin: 30px auto;
+    }
+    
     
     #seccion p{
         text-align: justify;
@@ -983,6 +1030,12 @@ article{
         display: none;
     }
     
-}
+    
+    .politicas{
+        text-align: justify;
+        width: 100%;
+        padding: 50px;
+        margin: 10px auto;
+    }
 
 }
