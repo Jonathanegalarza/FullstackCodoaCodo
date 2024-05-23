@@ -10,7 +10,7 @@ Alejandro Risso
 
 Para descargar el repositorio desde la consola de GitHub
 
-git clone https://github.com/kniball4726/FullstackCodoaCodoArg.git
+git clone https://github.com/kniball4726/FullstackCodoaCodo.git
 
 cd FullstackCodoaCodoArg/
 
