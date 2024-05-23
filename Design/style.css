@@ -21,6 +21,7 @@
 }
 
 #grupoForm h2{
+
     font-size: 22px;
     margin: auto;
     padding-bottom: 30px;
@@ -91,6 +92,7 @@
 
 #header {
     padding: 30px 10%;
+    background: #000;
 }
 
 .logo{
@@ -130,7 +132,7 @@
 }
 
 #nav ul li a:hover{
-    color: #000;
+    color: #fff;
     font-size: 12px;
 }
 
@@ -229,6 +231,11 @@ article{
     padding-bottom: 20px;
     font-size: 20px;
 }
+
+article h2{
+    margin: 30px auto;
+}
+
 
 #seccion article p{
     text-justify: inter-word;
@@ -341,6 +348,7 @@ article{
 
 #header {
     padding: 30px 10%;
+    background: #000;
 }
 
 .logo{
@@ -381,7 +389,7 @@ article{
 }
 
 #nav ul li a:hover{
-    color: #000;
+    color: #fff;
     font-size: 12px;
 }
 
@@ -480,6 +488,11 @@ article{
     padding-bottom: 20px;
     font-size: 20px;
 }
+
+article h2{
+    margin: 30px auto;
+}
+
 
 #seccion article p{
     text-justify: inter-word;
@@ -593,6 +606,7 @@ article{
     
     #header {
         padding: 30px 10%;
+        background: #000;
     }
     
     .logo{
@@ -633,7 +647,7 @@ article{
     }
     
     #nav ul li a:hover{
-        color: #000;
+        color: #fff;
         font-size: 24px;
     }
     
@@ -732,6 +746,10 @@ article{
         margin: 0 auto;
         padding-bottom: 20px;
         font-size: 24px;
+    }
+
+    article h2{
+        margin: 30px auto;
     }
     
     #seccion p{
@@ -850,6 +868,7 @@ article{
     
     #header {
         padding: 30px 10%;
+        background: #000;
     }
     
     .logo{
@@ -890,7 +909,7 @@ article{
     }
     
     #nav ul li a:hover{
-        color: #000;
+        color: #fff;
         font-size: 35px;
     }
     
@@ -994,6 +1013,11 @@ article{
         margin: 0 auto;
         padding-bottom: 20px;
     }
+
+    article h2{
+        margin: 30px auto;
+    }
+    
     
     #seccion p{
         text-align: justify;
