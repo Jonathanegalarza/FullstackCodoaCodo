@@ -1,14 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @media (max-width: 480px){
-
-    
-/*.body-nosotros{
-
-background: url(/src/fondo-body.jpg);
-
-}*/
-
-
-
 
 .quienes {
 
@@ -361,739 +353,820 @@ article h2{
 /*Medida tablets*/
 @media (min-width: 481px) and (max-width: 768px){
 
-    /*.body-nosotros{
+    .quienes {
 
-background: url(/src/fondo-body.jpg);
-
-}*/
-
-
-
-
-.quienes {
-
-    padding: 25px;
-
-    color: gray;
-
-    text-align: left;
-
-    font-size: 30px;
-
-    position: relative;
-
-    left: 100px;
-
-}
-
-
-
-
-.nosotros{
-    display: inline-flex;
-
-    justify-content: center;
-
-}
-
-
-
-
-.box{
-
-    text-align: center;
-
-    font-size: 16px;
-
-    padding: 10px;
-
-    width: 100% ;
-
-    height: 100%;
-
-}
-
-
-
-
-.box img{
-    width: 210px;
-
-    height: 300px;
-
-    margin: 0 100px;
-
-    border-radius:50%;
-
-    max-width: 100%;
-
-    opacity: 0.9;
-
-}
-
-
-
-
-.box a {
-
-text-decoration: none;
-
-color: black;
-}
-
-
-
-
-.box img:hover {
-    opacity: 1;
-}
-
-
-
-
-.box h3:hover{
-    color: blue;
-}
-
-
-
-
-.box a:hover {
-    color: blue;
-}
-
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-
-#grupoForm{
-    width: 80%;
-    padding: 30px;
-    background: #24303c;
-    margin: auto;
-    margin-top: 50px;
-    border-radius: 4px;
-    color: white;
-    box-shadow: 7px 13px 37px #000;
-}
-
-#grupoForm h2{
-    font-size: 22px;
-    margin: auto;
-    padding-bottom: 30px;
-}
-
-#grupoForm p{
-    height: 50px;
-    margin: auto;
-    text-align: center;
-    font-size: 15px;
-    line-height: 40px;
-}
-
-#grupoForm a{
-    color: white;
-    text-decoration: underline;
-}
-
-#grupoForm a:hover{
-    color: white;
-    text-decoration: underline;
-}
-
-#bagregar, #crearGrupo, #btEnviar{
-    width: 100%;
-    padding: 12px;
-    background: #1f53c5;
-    border: none;
-    margin: 16px;
-    border-radius: 4px;
-    color: #bbbbbb;;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all .2s ease;
-}
-
-#bagregar:hover{
-    color: white;
-    padding: 14px;
-}
-
-#crearGrupo:hover{
-    color: white;
-    padding: 14px;
-}
-
-#btEnviar:hover{
-    color: white;
-    padding: 14px;
-}
-
-#nombre, #apellido, #email, #consulta, #dni{
-    width: 100%;
-    background: #24303c;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 20px;
-    border: 1px solid #1f53c5;
-    font-family:'Times New Roman', Times, serif ;
-    font-size: 18px;
-}
-
-#container{
-    display: flex;
-    flex-flow: column;
-    width: 100%;
-}
-
-#header {
-    padding: 30px 10%;
-    background: #000;
-}
-
-.logo{
-    width: 10%;
-    height: 10%;
-}
-
-.logo img{
-    width: 10%;
-}
-
-#nav{
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-    width: 100%;
-}
-
-#nav ul{
-    list-style: none;
-}
-
-#nav ul li{
-    display: inline;
-    padding: 5px;
-    margin: 5px;
-}
-
-
-#nav ul li a{
-
-    text-align: justify;
-    font-size: 10px;
-    margin: 10px;
-    text-decoration: none;
-    color: gray;
-    transition: all .1s ease;
-}
-
-#nav ul li a:hover{
-    color: #fff;
-    font-size: 12px;
-}
-
-#footer{
-    width: 100%;
-    background: #000;
-    margin: auto;
-    text-decoration: none;
-}
-
-#containerfoot{
-    text-align: center;
-    padding: 20px;
-    margin: auto;
-}
-
-
-#footer-links ul{
-    margin: auto;
-    list-style: none;
-}
-
-#footer-links ul li {
-    font-size: 20px;
-    padding: 5px;
-    margin: auto;
-}
-
-#footer-links h4{
-    padding: 10px;
-    margin: auto;
-    font-size: 20px;
-    color: #fff;
-    display: block;
-}
-
-#footer-links ul li a{
-    margin: auto;
-    padding: 30px;
-    font-size: 16px;
-    color: #bbbbbb ;
-    text-decoration: none;
-    transition: all .50s ease;
-}
-
-#footer-links ul li a:hover {
-    padding-left: 6px;
-    color: #fff;
-}
-
-.marca{
-    padding: 10px;
-    margin: 10px;
-    color: #fff;
-}
-
-.marca a{
-    text-decoration: none;
-    color: #fff;
-}
-
-#grupoForm{
-    width: 60%;
-    padding: 30px 15px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#main{
-    display: flex;
-    flex-wrap: wrap;
-    flex-flow: column;
-    justify-content: center;
-    padding-bottom: 30px;
-}
-
-#aside{
-    width: 100%;
-    padding: 30px;
-    margin: 30px;
-}
-
-#aside ul{
-    list-style: none;
-}
-
-#seccion{
-    text-align: justify;
-    width: 80%;
-    margin: 0 auto;
-}
-
-article{
-    width: 100%;
-    margin: 0 auto;
-    padding-bottom: 20px;
-    font-size: 20px;
-}
-
-article h2{
-    margin: 30px auto;
-}
-
-
-#seccion article p{
-    text-justify: inter-word;
-}
-
-
-#nav ul ul{
-    display: none;
-}
-
-
-.politicas{
-    text-align: justify;
-    width: 100%;
-    padding: 50px;
-    margin: 10px auto;
-}
-
-
-}
-
-/*Medida laptop*/
-@media (min-width: 769px) and (max-width: 1200px){
+        padding: 25px;
     
-    /*.body-nosotros{
-
-background: url(/src/fondo-body.jpg);
-
-}*/
-
-
-
-
-.quienes {
-
-    padding: 25px;
-
-    color: gray;
-
-    text-align: left;
-
-    font-size: 30px;
-
-    position: relative;
-
-    left: 100px;
-
-}
-
-
-
-
-.nosotros{
-    display: inline-flex;
-
-    justify-content: center;
-
-}
-
-
-
-
-.box{
-
-    text-align: center;
-
-    font-size: 16px;
-
-    padding: 10px;
-
-    width: 100% ;
-
-    height: 100%;
-
-}
-
-
-
-
-.box img{
-    width: 210px;
-
-    height: 300px;
-
-    margin: 0 100px;
-
-    border-radius:50%;
-
-    max-width: 100%;
-
-    opacity: 0.9;
-
-}
-
-
-
-
-.box a {
-
-text-decoration: none;
-
-color: black;
-}
-
-
-
-
-.box img:hover {
-    opacity: 1;
-}
-
-
-
-
-.box h3:hover{
-    color: blue;
-}
-
-
-
-
-.box a:hover {
-    color: blue;
-}
-
-
-
-    *{
+        color: gray;
+    
+        text-align: left;
+    
+        font-size: 30px;
+    
+        position: relative;
+    
+        left: 100px;
+    
+    }
+    
+    .nosotros{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+    
+    
+    .box{
+    
+        text-align: center;
+    
+        font-size: 16px;
+    
+        padding: 10px;
+    
+        width: 100%;
+    
+        height: 100%;
+    
+    }
+    
+    .box img{
+        width: 210px;
+    
+        height: 300px;
+    
+        margin: 0 100px;
+    
+        border-radius:50%;
+    
+        max-width: 100%;
+    
+        opacity: 0.9;
+    
+    }
+    
+    .box a {
+    
+    text-decoration: none;
+    
+    color: black;
+    }
+    
+    .box img:hover {
+        opacity: 1;
+    }
+    
+    .box h3:hover{
+        color: blue;
+    }
+    
+    .box a:hover{
+        color: blue;
+    }
+    
+    *,
+    *::before,
+    *::after {
         margin: 0;
         padding: 0;
-        box-sizing:border-box;
-        font-family: 'Times New Roman', Times, serif;
+        box-sizing: inherit;
     }
     
-    
-    #grupoForm{
-        width: 80%;
-        padding: 30px;
-        background: #24303c;
-        margin: auto;
-        margin-top: 50px;
-        border-radius: 4px;
-        color: white;
-        box-shadow: 7px 13px 37px #000;
+    body{
+        font-family: 'Poppins', sans-serif;
+        min-height: 100vh;
+        box-sizing: border-box;
     }
     
-    #grupoForm h2{
-        font-size: 22px;
-        margin: auto;
-        padding-bottom: 30px;
-    }
-    
-    #grupoForm p{
-        height: 50px;
-        margin: auto;
-        text-align: center;
-        font-size: 15px;
-        line-height: 40px;
-    }
-    
-    #grupoForm a{
-        color: white;
-        text-decoration: underline;
-    }
-    
-    #grupoForm a:hover{
-        color: white;
-        text-decoration: underline;
-    }
-    
-    #bagregar, #crearGrupo, #btEnviar{
-        width: 100%;
-        padding: 12px;
-        background: #1f53c5;
-        border: none;
-        margin: 16px;
-        border-radius: 4px;
-        color: #bbbbbb;;
-        font-size: 16px;
-        cursor: pointer;
-        transition: all .2s ease;
-    }
-    
-    #bagregar:hover{
-        color: white;
-        padding: 14px;
-    }
-    
-    #crearGrupo:hover{
-        color: white;
-        padding: 14px;
-    }
-    
-    #btEnviar:hover{
-        color: white;
-        padding: 14px;
-    }
-    
-    #nombre, #apellido, #email, #consulta, #dni{
-        width: 100%;
-        background: #24303c;
-        padding: 10px;
-        border-radius: 4px;
-        margin-bottom: 20px;
-        border: 1px solid #1f53c5;
-        font-size: 20px;
-    }
-    
-    #container{
+    .header{
+        position:static;
+        top:0;
+        left: 0;
+        right: 0;
+        background-color: rgba(1,1, 1, 0.7);
+        padding: 0px 10px;
         display: flex;
-        flex-flow: column;
-        width: 100%;
+        align-items: center;
+        justify-content:space-around;
+        z-index: 1000;
     }
     
-    #header {
-        padding: 30px 10%;
-        background: #000;
+    .logor{
+        width: 50px;
+        cursor: pointer;
+        padding-left: px;
     }
     
     .logo{
-        width: 10%;
-        height: 10%;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 700;
+        cursor: pointer;
     }
     
-    .logo img{
-        width: 10%;
+    .logo a{
+        text-decoration: none;
+        text-align: left;
+        color: #fff;
     }
     
-    #nav{
-        display: flex;
-        flex-flow: row;
-        justify-content: space-between;
-        width: 100%;
-    }
-    
-    #nav ul{
+    .navigation ul{
         list-style: none;
     }
     
-    #nav ul li{
-        display: inline;
-        padding: 5px;
-        margin: 5px;
+    .header .navigation ul li{
+        float: left;
+        position: relative;
     }
     
-    
-    #nav ul li a{
-    
-        text-align: justify;
-        font-size: 22px;
-        margin: auto;
+    .header .navigation ul li a{
+        font-size: 18px;
+        color: #ffffff;
         text-decoration: none;
-        color: gray;
-        transition: all .1s ease;
-    }
-    
-    #nav ul li a:hover{
-        color: #fff;
-        font-size: 24px;
-    }
-    
-    #footer{
-        width: 100%;
-        background: #000;
-        margin: auto;
-        text-decoration: none;
-    }
-    
-    #containerfoot{
-        text-align: center;
         padding: 20px;
-        margin: auto;
-    }
-    
-    
-    #footer-links ul{
-        margin: auto;
-        list-style: none;
-    }
-    
-    #footer-links ul li {
-        font-size: 24px;
-        padding: 5px;
-        margin: auto;
-    }
-    
-    #footer-links h4{
-        padding: 10px;
-        margin: auto;
-        font-size: 24px;
-        color: #fff;
         display: block;
     }
     
-    #footer-links ul li a{
-        margin: auto;
-        padding: 30px;
-        font-size: 20px;
-        color: #bbbbbb ;
-        text-decoration: none;
-        transition: all .50s ease;
+    .header .navigation ul li a:hover{
+        background-color: #685ceb;
+        font-weight: 600;
     }
     
-    #footer-links ul li a:hover {
-        padding-left: 6px;
-        color: #fff;
-    }
-
-
-    .marca{
-        padding: 10px;
-        margin: 10px;
-        color: #fff;
-    }
-
-    .marca a{
-        text-decoration: none;
-        color: #fff;
+    .header .navigation ul li ul{
+        position: absolute;
+        right: 0;
+        width: 300px;
+        background-color: rgba(1,1, 1, 0.7);
+        display: none;
+    
     }
     
-    #grupoForm{
-        width: 60%;
-        padding: 30px 15px;
-        display: flex;
-        flex-wrap: wrap;
+    .header .navigation ul li ul li a{
+        font-size: 15px;
+        text-transform: capitalize;
     }
     
-    #main{
-        display: flex;
-        flex-wrap: wrap;
-        flex-flow: column;
-        justify-content: center;
-        padding-bottom: 30px;
+    .header .navigation ul li ul li ul{
+        position: absolute;
+        top: 0;
+        right: 300px;
     }
     
-    #aside{
+    .header .navigation ul li ul li{
         width: 100%;
-        padding: 30px;
-        margin: 30px;
     }
     
-    #aside ul{
+    .header .navigation ul li:hover > ul {
+        display: initial;
+    }
+    
+    #toggle,
+    .header label{
+        display: none;
+        cursor: pointer;
+    }
+    
+    .menu{
+        width: 45px;
+        height: 35px;
+    }
+    
+        
+        
+        #grupoForm{
+            width: 80%;
+            padding: 30px;
+            background: #24303c;
+            margin: auto;
+            margin-top: 50px;
+            border-radius: 4px;
+            color: white;
+            box-shadow: 7px 13px 37px #000;
+        }
+        
+        #grupoForm h2{
+            font-size: 25px;
+            margin: auto;
+            padding-bottom: 30px;
+        }
+        
+        #grupoForm p{
+            height: 50px;
+            margin: auto;
+            text-align: center;
+            font-size: 20px;
+            line-height: 40px;
+        }
+        
+        #grupoForm a{
+            color: white;
+            text-decoration: underline;
+        }
+        
+        #grupoForm a:hover{
+            color: white;
+            text-decoration: underline;
+        }
+        
+        
+        #bagregar, #crearGrupo, #btEnviar{
+            width: 90%;
+            align-content: center;
+            padding: 12px;
+            background: #1f53c5;
+            border: none;
+            margin: 10px auto;
+            border-radius: 4px;
+            color: #bbbbbb;;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all .2s ease;
+        }
+        
+        #bagregar:hover{
+            color: white;
+            padding: 14px;
+        }
+        
+        
+        #crearGrupo:hover{
+            color: white;
+            padding: 14px;
+        }
+        
+        #btEnviar:hover{
+            color: white;
+            padding: 14px;
+        }
+        
+        #nombre, #apellido, #email, #consulta, #dni{
+            width: 100%;
+            color: #fff;
+            background: #24303c;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            border: 1px solid #1f53c5;
+            font-size: 20px;
+        }
+        
+        #container{
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+        }
+        
+        #footer{
+            width: 100%;
+            background-color: rgba(1,1, 1, 0.7);
+            margin: auto;
+            text-decoration: none;
+        }
+        
+        #containerfoot{
+            text-align: center;
+            padding: 20px;
+            margin: auto;
+        }
+        
+        
+        #footer-links ul{
+            margin: auto;
+            list-style: none;
+        }
+        
+        #footer-links ul li {
+            font-size: 30px;
+            padding: 10px;
+            margin: auto;
+        }
+        
+        #footer-links h4{
+            padding: 10px;
+            margin: auto;
+            font-size: 24px;
+            color: #fff;
+            display: block;
+        }
+        
+        #footer-links ul li a{
+            margin: auto;
+            padding: 30px;
+            font-size: 20px;
+            color: #bbbbbb ;
+            text-decoration: none;
+            transition: all .50s ease;
+        }
+        
+        #footer-links ul li a:hover {
+            padding-left: 20px;
+            color: #fff;
+        }
+    
+        .marca{
+            width: 100%;
+            padding: 30px;
+            background-color: rgba(1,1, 1, 0.7);
+            margin: auto;
+            text-decoration: none;
+            text-align: center;
+        }
+        
+        .marca a{
+            color: #fff;
+        }
+    
+        .marca p{
+            color: #fff;
+        }
+    
+        #grupoForm{
+            width: 60%;
+            padding: 30px 15px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        #main{
+            display: flex;
+            flex-wrap: wrap;
+            flex-flow: column;
+            justify-content: center;
+            padding-bottom: 30px;
+            padding-top: 20px;
+        }
+        
+        #aside{
+            width: 100%;
+            padding: 30px;
+            margin: 30px;
+        }
+        
+        #aside ul{
+            list-style: none;
+        }
+    
+        
+        #seccion{
+            text-align: justify;
+            width: 80%;
+            margin: 20px auto;
+        }
+        
+        article{
+            width: 100%;
+            margin: 0 auto;
+            padding-bottom: 20px;
+        }
+    
+        article h2{
+            margin: 30px auto;
+        }
+        
+        
+        #seccion p{
+            text-align: justify;
+            font-size: 30px;
+            text-justify: inter-word;
+        }
+        
+        
+        #nav ul ul{
+            display: none;
+        }
+        
+        
+        .politicas{
+            text-align: justify;
+            width: 100%;
+            padding: 50px;
+            margin: 10px auto;
+        }
+    
+    }
+
+/*Medida laptop*/
+@media (min-width: 769px) and (max-width: 1200px){
+    .quienes {
+
+        padding: 25px;
+    
+        color: gray;
+    
+        text-align: left;
+    
+        font-size: 30px;
+    
+        position: relative;
+    
+        left: 100px;
+    
+    }
+    
+    
+    
+    
+    .nosotros{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+    
+    
+    
+    
+    .box{
+    
+        text-align: center;
+    
+        font-size: 16px;
+    
+        padding: 10px;
+    
+        width: 100%;
+    
+        height: 100%;
+    
+    }
+    
+    
+    
+    
+    .box img{
+        width: 210px;
+    
+        height: 300px;
+    
+        margin: 0 100px;
+    
+        border-radius:50%;
+    
+        max-width: 100%;
+    
+        opacity: 0.9;
+    
+    }
+    
+    
+    
+    
+    .box a {
+    
+    text-decoration: none;
+    
+    color: black;
+    }
+    
+    
+    
+    
+    .box img:hover {
+        opacity: 1;
+    }
+    
+    
+    
+    
+    .box h3:hover{
+        color: blue;
+    }
+    
+    
+    
+    
+    .box a:hover{
+        color: blue;
+    }
+    
+    
+    *,
+    *::before,
+    *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+    }
+    
+    body{
+        font-family: 'Poppins', sans-serif;
+        min-height: 100vh;
+        box-sizing: border-box;
+    }
+    
+    .header{
+        position:static;
+        top:0;
+        left: 0;
+        right: 0;
+        background-color: rgba(1,1, 1, 0.7);
+        padding: 0px 10px;
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        z-index: 1000;
+    }
+    
+    .logor{
+        width: 50px;
+        cursor: pointer;
+        padding-left: px;
+    }
+    
+    .logo{
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    
+    .logo a{
+        text-decoration: none;
+        text-align: left;
+        color: #fff;
+    }
+    
+    .navigation ul{
         list-style: none;
     }
     
-    #seccion{
-        text-align: justify;
-        width: 80%;
-        margin: 0 auto;
+    .header .navigation ul li{
+        float: left;
+        position: relative;
     }
     
-    article{
-        width: 100%;
-        margin: 0 auto;
-        padding-bottom: 20px;
-        font-size: 24px;
-    }
-
-    article h2{
-        margin: 30px auto;
+    .header .navigation ul li a{
+        font-size: 18px;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 20px;
+        display: block;
     }
     
-    #seccion p{
-        font-size: 24px;
-        text-align: justify;
-        text-justify: inter-word;
+    .header .navigation ul li a:hover{
+        background-color: #685ceb;
+        font-weight: 600;
     }
     
-    
-    #nav ul ul{
+    .header .navigation ul li ul{
+        position: absolute;
+        right: 0;
+        width: 300px;
+        background-color: rgba(1,1, 1, 0.7);
         display: none;
-    }
-
     
-    .politicas{
-        text-align: justify;
-        width: 100%;
-        padding: 50px;
-        margin: 10px auto;
     }
-
-}
+    
+    .header .navigation ul li ul li a{
+        font-size: 15px;
+        text-transform: capitalize;
+    }
+    
+    .header .navigation ul li ul li ul{
+        position: absolute;
+        top: 0;
+        right: 300px;
+    }
+    
+    .header .navigation ul li ul li{
+        width: 100%;
+    }
+    
+    .header .navigation ul li:hover > ul {
+        display: initial;
+    }
+    
+    #toggle,
+    .header label{
+        display: none;
+        cursor: pointer;
+    }
+    
+    .menu{
+        width: 45px;
+        height: 35px;
+    }
+    
+        
+        
+        #grupoForm{
+            width: 80%;
+            padding: 30px;
+            background: #24303c;
+            margin: auto;
+            margin-top: 50px;
+            border-radius: 4px;
+            color: white;
+            box-shadow: 7px 13px 37px #000;
+        }
+        
+        #grupoForm h2{
+            font-size: 25px;
+            margin: auto;
+            padding-bottom: 30px;
+        }
+        
+        #grupoForm p{
+            height: 50px;
+            margin: auto;
+            text-align: center;
+            font-size: 20px;
+            line-height: 40px;
+        }
+        
+        #grupoForm a{
+            color: white;
+            text-decoration: underline;
+        }
+        
+        #grupoForm a:hover{
+            color: white;
+            text-decoration: underline;
+        }
+        
+        
+        #bagregar, #crearGrupo, #btEnviar{
+            width: 90%;
+            align-content: center;
+            padding: 12px;
+            background: #1f53c5;
+            border: none;
+            margin: 10px auto;
+            border-radius: 4px;
+            color: #bbbbbb;;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all .2s ease;
+        }
+        
+        #bagregar:hover{
+            color: white;
+            padding: 14px;
+        }
+        
+        
+        #crearGrupo:hover{
+            color: white;
+            padding: 14px;
+        }
+        
+        #btEnviar:hover{
+            color: white;
+            padding: 14px;
+        }
+        
+        #nombre, #apellido, #email, #consulta, #dni{
+            width: 100%;
+            color: #fff;
+            background: #24303c;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            border: 1px solid #1f53c5;
+            font-size: 20px;
+        }
+        
+        #container{
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+        }
+        
+        #footer{
+            width: 100%;
+            background-color: rgba(1,1, 1, 0.7);
+            margin: auto;
+            text-decoration: none;
+        }
+        
+        #containerfoot{
+            text-align: center;
+            padding: 20px;
+            margin: auto;
+        }
+        
+        
+        #footer-links ul{
+            margin: auto;
+            list-style: none;
+        }
+        
+        #footer-links ul li {
+            font-size: 30px;
+            padding: 10px;
+            margin: auto;
+        }
+        
+        #footer-links h4{
+            padding: 10px;
+            margin: auto;
+            font-size: 24px;
+            color: #fff;
+            display: block;
+        }
+        
+        #footer-links ul li a{
+            margin: auto;
+            padding: 30px;
+            font-size: 20px;
+            color: #bbbbbb ;
+            text-decoration: none;
+            transition: all .50s ease;
+        }
+        
+        #footer-links ul li a:hover {
+            padding-left: 20px;
+            color: #fff;
+        }
+    
+        .marca{
+            width: 100%;
+            padding: 30px;
+            background-color: rgba(1,1, 1, 0.7);
+            margin: auto;
+            text-decoration: none;
+            text-align: center;
+        }
+        
+        .marca a{
+            color: #fff;
+        }
+    
+        .marca p{
+            color: #fff;
+        }
+    
+        #grupoForm{
+            width: 60%;
+            padding: 30px 15px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        #main{
+            display: flex;
+            flex-wrap: wrap;
+            flex-flow: column;
+            justify-content: center;
+            padding-bottom: 30px;
+            padding-top: 20px;
+        }
+        
+        #aside{
+            width: 100%;
+            padding: 30px;
+            margin: 30px;
+        }
+        
+        #aside ul{
+            list-style: none;
+        }
+    
+        
+        #seccion{
+            text-align: justify;
+            width: 80%;
+            margin: 20px auto;
+        }
+        
+        article{
+            width: 100%;
+            margin: 0 auto;
+            padding-bottom: 20px;
+        }
+    
+        article h2{
+            margin: 30px auto;
+        }
+        
+        
+        #seccion p{
+            text-align: justify;
+            font-size: 30px;
+            text-justify: inter-word;
+        }
+        
+        
+        #nav ul ul{
+            display: none;
+        }
+        
+        
+        .politicas{
+            text-align: justify;
+            width: 100%;
+            padding: 50px;
+            margin: 10px auto;
+        }
+    
+    }
 
 /*PC + TV*/
 @media (min-width: 1200px){
 
-    /*.body-nosotros{
-
-background: url(/src/fondo-body.jpg);
-
-}*/
-
-
-
-
 .quienes {
 
     padding: 25px;
@@ -1114,7 +1187,9 @@ background: url(/src/fondo-body.jpg);
 
 
 .nosotros{
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
 
     justify-content: center;
 
@@ -1187,13 +1262,114 @@ color: black;
 }
 
 
-    *{
-        
-        font-family: Arial, Helvetica, sans-serif;
-        margin: 0;
-        padding: 0;
-        box-sizing:border-box;
-    }
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.header{
+    position:static;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color: rgba(1,1, 1, 0.7);
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    z-index: 1000;
+}
+
+.logor{
+    width: 50px;
+    cursor: pointer;
+    padding-left: px;
+}
+
+.logo{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.logo a{
+    text-decoration: none;
+    text-align: left;
+    color: #fff;
+}
+
+.navigation ul{
+    list-style: none;
+}
+
+.header .navigation ul li{
+    float: left;
+    position: relative;
+}
+
+.header .navigation ul li a{
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+.header .navigation ul li a:hover{
+    background-color: #685ceb;
+    font-weight: 600;
+}
+
+.header .navigation ul li ul{
+    position: absolute;
+    right: 0;
+    width: 300px;
+    background-color: rgba(1,1, 1, 0.7);
+    display: none;
+
+}
+
+.header .navigation ul li ul li a{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.header .navigation ul li ul li ul{
+    position: absolute;
+    top: 0;
+    right: 300px;
+}
+
+.header .navigation ul li ul li{
+    width: 100%;
+}
+
+.header .navigation ul li:hover > ul {
+    display: initial;
+}
+
+#toggle,
+.header label{
+    display: none;
+    cursor: pointer;
+}
+
+.menu{
+    width: 45px;
+    height: 35px;
+}
+
     
     
     #grupoForm{
@@ -1264,6 +1440,7 @@ color: black;
     
     #nombre, #apellido, #email, #consulta, #dni{
         width: 100%;
+        color: #fff;
         background: #24303c;
         padding: 10px;
         border-radius: 4px;
@@ -1278,68 +1455,16 @@ color: black;
         width: 100%;
     }
     
-    #header {
-        padding: 30px 10%;
-        background: #000;
-    }
-    
-    .logo{
-        width: 10%;
-        height: 10%;
-    }
-    
-    .logo img{
-        width: 10%;
-    }
-    
-    #nav{
-        display: flex;
-        flex-flow: row;
-        justify-content: space-between;
-        width: 100%;
-    }
-    
-    #nav ul{
-        list-style: none;
-    }
-    
-    #nav ul li{
-        display: inline;
-        padding: 5px;
-        margin: 5px;
-    }
-    
-    
-    #nav ul li a{
-    
-        text-align: justify;
-        font-size: 30px;
-        margin: auto;
-        text-decoration: none;
-        color: gray;
-        transition: all .3s ease;
-    }
-    
-    #nav ul li a:hover{
-        color: #fff;
-        font-size: 35px;
-    }
-    
-    .group {
-        border: 1px solid #ccc;
-        padding: 10px;
-        margin-bottom: 10px;
-    }
-    
-    
     #footer{
         width: 100%;
-        background: #000;
+        background-color: rgba(1,1, 1, 0.7);
         margin: auto;
         text-decoration: none;
     }
     
     #containerfoot{
+        display: flex;
+        justify-content: space-around;
         text-align: center;
         padding: 20px;
         margin: auto;
@@ -1378,13 +1503,21 @@ color: black;
         padding-left: 20px;
         color: #fff;
     }
+
     .marca{
-        padding: 10px;
-        margin: 10px;
-        color: #fff;
+        width: 100%;
+        padding: 30px;
+        background-color: rgba(1,1, 1, 0.7);
+        margin: auto;
+        text-decoration: none;
+        text-align: center;
     }
     
     .marca a{
+        color: #fff;
+    }
+
+    .marca p{
         color: #fff;
     }
 
@@ -1401,6 +1534,7 @@ color: black;
         flex-flow: column;
         justify-content: center;
         padding-bottom: 30px;
+        padding-top: 20px;
     }
     
     #aside{
