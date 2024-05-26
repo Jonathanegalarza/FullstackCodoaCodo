@@ -1,371 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-@media (max-width: 480px){
 
-.quienes {
-
-    padding: 25px;
-
-    color: gray;
-
-    text-align: left;
-
-    font-size: 30px;
-
-    position: relative;
-
-    left: 100px;
-
-}
-
-
-
-
-.nosotros{  
-    display: inline-flex;
-
-    justify-content: center;
-
-}
-
-
-
-
-.box{
-
-    text-align: center;
-
-    font-size: 16px;
-
-    padding: 10px;
-
-    width: 100% ;
-
-    height: 100%;
-
-}
-
-
-
-
-.box img{
-    width: 210px ;
-
-    height: 300px;
-
-    margin: 0 100px;
-
-    border-radius:50%;
-
-    max-width: 100%;
-
-    opacity: 0.9;
-
-}
-
-
-
-
-.box a {
-
-text-decoration: none;
-
-color: black;
-}
-
-
-
-
-.box img:hover {
-    opacity: 1 ;
-}
-
-
-
-
-.box h3:hover{
-    color: blue;
-}
-
-
-
-
-.box a:hover {
-    color: blue;
-}
-
-
-*{
-    
-    font-family: Arial, Helvetica, sans-serif;
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: inherit;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    box-sizing: border-box;
+    
+    background-image: url("/src/img-main.jpg");
 
-#grupoForm{
-    width: 80%;
-    padding: 30px;
-    background: #24303c;
-    margin: auto;
-    margin-top: 50px;
-    border-radius: 4px;
-    color: white;
-    box-shadow: 7px 13px 37px #000;
-}
+    background-size:auto;
+    }
 
-#grupoForm h2{
-
-    font-size: 22px;
-    margin: auto;
-    padding-bottom: 30px;
-}
-
-#grupoForm p{
-    height: 50px;
-    margin: auto;
-    text-align: center;
-    font-size: 15px;
-    line-height: 40px;
-}
-
-#grupoForm a{
-    color: white;
-    text-decoration: underline;
-}
-
-#grupoForm a:hover{
-    color: white;
-    text-decoration: underline;
-}
-
-#bagregar, #crearGrupo, #btEnviar{
-    width: 100%;
-    padding: 12px;
-    background: #1f53c5;
-    border: none;
-    margin: 16px;
-    border-radius: 4px;
-    color: #bbbbbb;;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all .2s ease;
-}
-
-#bagregar:hover{
-    color: white;
-    padding: 14px;
-}
-
-
-#crearGrupo:hover{
-    color: white;
-    padding: 14px;
-}
-
-#btEnviar:hover{
-    color: white;
-    padding: 14px;
-}
-
-#nombre, #apellido, #email, #consulta, #dni{
-    width: 100%;
-    background: #24303c;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 20px;
-    border: 1px solid #1f53c5;
-    font-size: 18px;
-}
-
-#container{
-    display: flex;
-    flex-flow: column;
-    width: 100%;
-}
-
-#header {
-    padding: 30px 10%;
-    background: #000;
-}
-
-.logo{
-    width: 10%;
-    height: 10%;
-}
-
-.logo img{
-    width: 10%;
-}
-
-#nav{
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-    width: 100%;
-}
-
-#nav ul{
-    list-style: none;
-}
-
-#nav ul li{
-    display: inline;
-    padding: 5px;
-    margin: 5px;
-}
-
-#nav ul li a{
-
-    text-align: justify;
-    font-size: 10px;
-    margin: 10px;
-    text-decoration: none;
-    color: gray;
-    transition: all .1s ease;
-}
-
-#nav ul li a:hover{
-    color: #fff;
-    font-size: 12px;
-}
-
-#footer{
-    width: 100%;
-    background: #000;
-    margin: auto;
-    text-decoration: none;
-}
-
-#containerfoot{
-    text-align: center;
-    padding: 20px;
-    margin: auto;
-}
-
-
-#footer-links ul{
-    margin: auto;
-    list-style: none;
-}
-
-#footer-links ul li {
-    font-size: 20px;
-    padding: 5px;
-    margin: auto;
-}
-
-#footer-links h4{
-    padding: 10px;
-    margin: auto;
-    font-size: 20px;
-    color: #fff;
-    display: block;
-}
-
-#footer-links ul li a{
-    margin: auto;
-    padding: 30px;
-    font-size: 16px;
-    color: #bbbbbb ;
-    text-decoration: none;
-    transition: all .50s ease;
-}
-
-#footer-links ul li a:hover {
-    padding-left: 6px;
-    color: #fff;
-}
-
-.marca{
-    padding: 10px;
-    margin: 10px;
-    color: #fff;
-}
-
-.marca a{
-    color: #fff;
-    text-decoration: none;
-}
-
-#grupoForm{
-    width: 60%;
-    padding: 30px 15px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#main{
-    display: flex;
-    flex-wrap: wrap;
-    flex-flow: column;
-    justify-content: center;
-    padding-bottom: 30px;
-}
-
-#aside{
-    width: 100%;
-    padding: 30px;
-    margin: 30px;
-}
-
-#aside ul{
-    list-style: none;
-}
-
-#seccion{
-    text-align: justify;
-    width: 80%;
-    margin: 0 auto;
-}
-
-article{
-    width: 100%;
-    margin: 0 auto;
-    padding-bottom: 20px;
-    font-size: 20px;
-}
-
-article h2{
-    margin: 30px auto;
-}
-
-
-#seccion article p{
-    text-justify: inter-word;
-}
-
-
-#nav ul ul{
-    display: none;
-}
-
-.politicas{
-    text-align: justify;
-    width: 100%;
-    padding: 50px;
-    margin: 10px auto;
-}
-
-}
-
-/*Medida tablets*/
-@media (min-width: 481px) and (max-width: 768px){
+@media (max-width: 480px){
 
     .quienes {
 
         padding: 25px;
     
-        color: gray;
+        color: #000;
+
+        margin: auto;
     
-        text-align: left;
-    
-        font-size: 30px;
-    
-        position: relative;
-    
-        left: 100px;
+        font-size: 20px;
     
     }
     
@@ -425,44 +89,28 @@ article h2{
         color: blue;
     }
     
-    *,
-    *::before,
-    *::after {
-        margin: 0;
-        padding: 0;
-        box-sizing: inherit;
-    }
-    
-    body{
-        font-family: 'Poppins', sans-serif;
-        min-height: 100vh;
-        box-sizing: border-box;
-    }
     
     .header{
-        position:static;
-        top:0;
-        left: 0;
-        right: 0;
         background-color: rgba(1,1, 1, 0.7);
-        padding: 0px 10px;
         display: flex;
-        align-items: center;
-        justify-content:space-around;
-        z-index: 1000;
     }
     
     .logor{
+        padding-left:50px;
+        padding-top: 20px;
+        grid-area: logor;
         width: 50px;
         cursor: pointer;
-        padding-left: px;
+        padding-left: 20px;
     }
     
     .logo{
-        font-size: 20px;
+        padding-top: 20px;
+        grid-area: logo;
+        font-size: 15px;
         text-transform: uppercase;
         color: #ffffff;
-        font-weight: 700;
+        font-weight: 500;
         cursor: pointer;
     }
     
@@ -471,11 +119,24 @@ article h2{
         text-align: left;
         color: #fff;
     }
+
     
+    .header{
+        display:grid;
+        grid-template-areas:
+        "logor logo"
+        "navigation navigation";
+    }
+
+    .navigation{
+        padding: 20px;
+        grid-area: navigation;
+        margin:auto;
+    }
     .navigation ul{
         list-style: none;
     }
-    
+
     .header .navigation ul li{
         float: left;
         position: relative;
@@ -485,19 +146,18 @@ article h2{
         font-size: 18px;
         color: #ffffff;
         text-decoration: none;
-        padding: 20px;
-        display: block;
+        padding: 5px;
     }
     
     .header .navigation ul li a:hover{
         background-color: #685ceb;
-        font-weight: 600;
+        font-weight: 400;
     }
     
     .header .navigation ul li ul{
         position: absolute;
         right: 0;
-        width: 300px;
+        width: 100%;
         background-color: rgba(1,1, 1, 0.7);
         display: none;
     
@@ -511,31 +171,14 @@ article h2{
     .header .navigation ul li ul li ul{
         position: absolute;
         top: 0;
-        right: 300px;
-    }
-    
-    .header .navigation ul li ul li{
         width: 100%;
     }
     
     .header .navigation ul li:hover > ul {
-        display: initial;
+        display:block;
     }
     
-    #toggle,
-    .header label{
-        display: none;
-        cursor: pointer;
-    }
-    
-    .menu{
-        width: 45px;
-        height: 35px;
-    }
-    
-        
-        
-        #grupoForm{
+    #grupoForm{
             width: 80%;
             padding: 30px;
             background: #24303c;
@@ -547,7 +190,7 @@ article h2{
         }
         
         #grupoForm h2{
-            font-size: 25px;
+            font-size: 20px;
             margin: auto;
             padding-bottom: 30px;
         }
@@ -601,7 +244,7 @@ article h2{
             padding: 14px;
         }
         
-        #nombre, #apellido, #email, #consulta, #dni{
+        #nombre, #apellido, #email, #consulta, #dni, #user, #pasw{
             width: 100%;
             color: #fff;
             background: #24303c;
@@ -638,7 +281,7 @@ article h2{
         }
         
         #footer-links ul li {
-            font-size: 30px;
+            font-size: 20px;
             padding: 10px;
             margin: auto;
         }
@@ -646,7 +289,7 @@ article h2{
         #footer-links h4{
             padding: 10px;
             margin: auto;
-            font-size: 24px;
+            font-size: 20px;
             color: #fff;
             display: block;
         }
@@ -728,7 +371,380 @@ article h2{
         
         #seccion p{
             text-align: justify;
-            font-size: 30px;
+            font-size: 20px;
+            text-justify: inter-word;
+        }
+        
+        
+        #nav ul ul{
+            display: none;
+        }
+        
+        
+        .politicas{
+            text-align: justify;
+            width: 100%;
+            padding: 50px;
+            margin: 10px auto;
+        }
+    
+    }
+/*Medida tablets*/
+@media (min-width: 481px) and (max-width: 768px){
+
+    .quienes {
+
+        padding: 25px;
+    
+        color: gray;
+    
+        text-align: left;
+    
+        font-size: 20px;
+    
+        position: relative;
+    
+        left: 100px;
+    
+    }
+    
+    .nosotros{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+    
+    
+    .box{
+    
+        text-align: center;
+    
+        font-size: 16px;
+    
+        padding: 10px;
+    
+        width: 100%;
+    
+        height: 100%;
+    
+    }
+    
+    .box img{
+        width: 210px;
+    
+        height: 300px;
+    
+        margin: 0 100px;
+    
+        border-radius:50%;
+    
+        max-width: 100%;
+    
+        opacity: 0.9;
+    
+    }
+    
+    .box a {
+    
+    text-decoration: none;
+    
+    color: black;
+    }
+    
+    .box img:hover {
+        opacity: 1;
+    }
+    
+    .box h3:hover{
+        color: blue;
+    }
+    
+    .box a:hover{
+        color: blue;
+    }
+    .header{
+        background-color: rgba(1,1, 1, 0.7);
+        display: flex;
+    }
+    
+    .logor{
+        padding-left:50px;
+        padding-top: 20px;
+        grid-area: logor;
+        width: 50px;
+        cursor: pointer;
+        padding-left: 20px;
+    }
+    
+    .logo{
+        padding-top: 20px;
+        grid-area: logo;
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    
+    .logo a{
+        text-decoration: none;
+        text-align: left;
+        color: #fff;
+    }
+
+    .navigation{
+        padding: 20px;
+        grid-area: navigation;
+        margin:auto;
+    }
+    .navigation ul{
+        list-style: none;
+    }
+
+    .header{
+        display:grid;
+        grid-template-areas:
+        "logor logo"
+        "navigation navigation";
+    }
+
+        .header .navigation ul li{
+            float: left;
+            position: relative;
+        }
+        
+        .header .navigation ul li a{
+            font-size: 18px;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 5px;
+        }
+        
+        .header .navigation ul li a:hover{
+            background-color: #685ceb;
+            font-weight: 400;
+        }
+        
+        .header .navigation ul li ul{
+            position: absolute;
+            right: 0;
+            width: 100%;
+            background-color: rgba(1,1, 1, 0.7);
+            display: none;
+        
+        }
+        
+        .header .navigation ul li ul li a{
+            font-size: 15px;
+            text-transform: capitalize;
+        }
+        
+        .header .navigation ul li ul li ul{
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+        
+        .header .navigation ul li:hover > ul {
+            display:block;
+        }
+        
+
+    #grupoForm{
+            width: 80%;
+            padding: 30px;
+            background: #24303c;
+            margin: auto;
+            margin-top: 50px;
+            border-radius: 4px;
+            color: white;
+            box-shadow: 7px 13px 37px #000;
+        }
+        
+        #grupoForm h2{
+            font-size: 20px;
+            margin: auto;
+            padding-bottom: 30px;
+        }
+        
+        #grupoForm p{
+            height: 50px;
+            margin: auto;
+            text-align: center;
+            font-size: 20px;
+            line-height: 40px;
+        }
+        
+        #grupoForm a{
+            color: white;
+            text-decoration: underline;
+        }
+        
+        #grupoForm a:hover{
+            color: white;
+            text-decoration: underline;
+        }
+        
+        
+        #bagregar, #crearGrupo, #btEnviar{
+            width: 90%;
+            align-content: center;
+            padding: 12px;
+            background: #1f53c5;
+            border: none;
+            margin: 10px auto;
+            border-radius: 4px;
+            color: #bbbbbb;;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all .2s ease;
+        }
+        
+        #bagregar:hover{
+            color: white;
+            padding: 14px;
+        }
+        
+        
+        #crearGrupo:hover{
+            color: white;
+            padding: 14px;
+        }
+        
+        #btEnviar:hover{
+            color: white;
+            padding: 14px;
+        }
+        
+        #nombre, #apellido, #email, #consulta, #dni, #user, #pasw{
+            width: 100%;
+            color: #fff;
+            background: #24303c;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            border: 1px solid #1f53c5;
+            font-size: 20px;
+        }
+        
+        #container{
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+        }
+        
+        #footer{
+            width: 100%;
+            background-color: rgba(1,1, 1, 0.7);
+            margin: auto;
+            text-decoration: none;
+        }
+        
+        #containerfoot{
+            text-align: center;
+            padding: 20px;
+            margin: auto;
+        }
+        
+        
+        #footer-links ul{
+            margin: auto;
+            list-style: none;
+        }
+        
+        #footer-links ul li {
+            font-size: 20px;
+            padding: 10px;
+            margin: auto;
+        }
+        
+        #footer-links h4{
+            padding: 10px;
+            margin: auto;
+            font-size: 20px;
+            color: #fff;
+            display: block;
+        }
+        
+        #footer-links ul li a{
+            margin: auto;
+            padding: 30px;
+            font-size: 20px;
+            color: #bbbbbb ;
+            text-decoration: none;
+            transition: all .50s ease;
+        }
+        
+        #footer-links ul li a:hover {
+            padding-left: 20px;
+            color: #fff;
+        }
+    
+        .marca{
+            width: 100%;
+            padding: 30px;
+            background-color: rgba(1,1, 1, 0.7);
+            margin: auto;
+            text-decoration: none;
+            text-align: center;
+        }
+        
+        .marca a{
+            color: #fff;
+        }
+    
+        .marca p{
+            color: #fff;
+        }
+    
+        #grupoForm{
+            width: 60%;
+            padding: 30px 15px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        #main{
+            display: flex;
+            flex-wrap: wrap;
+            flex-flow: column;
+            justify-content: center;
+            padding-bottom: 30px;
+            padding-top: 20px;
+        }
+        
+        #aside{
+            width: 100%;
+            padding: 30px;
+            margin: 30px;
+        }
+        
+        #aside ul{
+            list-style: none;
+        }
+    
+        
+        #seccion{
+            text-align: justify;
+            width: 80%;
+            margin: 20px auto;
+        }
+        
+        article{
+            width: 100%;
+            margin: 0 auto;
+            padding-bottom: 20px;
+        }
+    
+        article h2{
+            margin: 30px auto;
+        }
+        
+        
+        #seccion p{
+            text-align: justify;
+            font-size: 20px;
             text-justify: inter-word;
         }
         
@@ -757,7 +773,7 @@ article h2{
     
         text-align: left;
     
-        font-size: 30px;
+        font-size: 20px;
     
         position: relative;
     
@@ -841,20 +857,6 @@ article h2{
         color: blue;
     }
     
-    
-    *,
-    *::before,
-    *::after {
-        margin: 0;
-        padding: 0;
-        box-sizing: inherit;
-    }
-    
-    body{
-        font-family: 'Poppins', sans-serif;
-        min-height: 100vh;
-        box-sizing: border-box;
-    }
     
     .header{
         position:static;
@@ -964,7 +966,7 @@ article h2{
         }
         
         #grupoForm h2{
-            font-size: 25px;
+            font-size: 20px;
             margin: auto;
             padding-bottom: 30px;
         }
@@ -996,7 +998,7 @@ article h2{
             border: none;
             margin: 10px auto;
             border-radius: 4px;
-            color: #bbbbbb;;
+            color: #bbbbbb;
             font-size: 16px;
             cursor: pointer;
             transition: all .2s ease;
@@ -1018,7 +1020,7 @@ article h2{
             padding: 14px;
         }
         
-        #nombre, #apellido, #email, #consulta, #dni{
+        #nombre, #apellido, #email, #consulta, #dni, #user, #pasw{
             width: 100%;
             color: #fff;
             background: #24303c;
@@ -1055,7 +1057,7 @@ article h2{
         }
         
         #footer-links ul li {
-            font-size: 30px;
+            font-size: 20px;
             padding: 10px;
             margin: auto;
         }
@@ -1063,7 +1065,7 @@ article h2{
         #footer-links h4{
             padding: 10px;
             margin: auto;
-            font-size: 24px;
+            font-size: 20px;
             color: #fff;
             display: block;
         }
@@ -1145,7 +1147,7 @@ article h2{
         
         #seccion p{
             text-align: justify;
-            font-size: 30px;
+            font-size: 20px;
             text-justify: inter-word;
         }
         
@@ -1259,21 +1261,6 @@ color: black;
 
 .box a:hover{
     color: blue;
-}
-
-
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
-
-body{
-    font-family: 'Poppins', sans-serif;
-    min-height: 100vh;
-    box-sizing: border-box;
 }
 
 .header{
@@ -1438,7 +1425,7 @@ body{
         padding: 14px;
     }
     
-    #nombre, #apellido, #email, #consulta, #dni{
+    #nombre, #apellido, #email, #consulta, #dni, #user, #pasw{
         width: 100%;
         color: #fff;
         background: #24303c;
