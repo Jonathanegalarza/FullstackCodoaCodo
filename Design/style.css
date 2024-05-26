@@ -25,15 +25,11 @@ body{
 
         padding: 25px;
     
-        color: gray;
-    
-        text-align: left;
+        color: #000;
+
+        margin: auto;
     
         font-size: 20px;
-    
-        position: relative;
-    
-        left: 100px;
     
     }
     
@@ -124,6 +120,14 @@ body{
         color: #fff;
     }
 
+    
+    .header{
+        display:grid;
+        grid-template-areas:
+        "logor logo"
+        "navigation navigation";
+    }
+
     .navigation{
         padding: 20px;
         grid-area: navigation;
@@ -133,55 +137,47 @@ body{
         list-style: none;
     }
 
-    .header{
-        display:grid;
-        grid-template-areas:
-        "logor logo"
-        "navigation navigation";
+    .header .navigation ul li{
+        float: left;
+        position: relative;
     }
-
-        .header .navigation ul li{
-            float: left;
-            position: relative;
-        }
-        
-        .header .navigation ul li a{
-            font-size: 18px;
-            color: #ffffff;
-            text-decoration: none;
-            padding: 5px;
-        }
-        
-        .header .navigation ul li a:hover{
-            background-color: #685ceb;
-            font-weight: 400;
-        }
-        
-        .header .navigation ul li ul{
-            position: absolute;
-            right: 0;
-            width: 100%;
-            background-color: rgba(1,1, 1, 0.7);
-            display: none;
-        
-        }
-        
-        .header .navigation ul li ul li a{
-            font-size: 15px;
-            text-transform: capitalize;
-        }
-        
-        .header .navigation ul li ul li ul{
-            position: absolute;
-            top: 0;
-            width: 100%;
-        }
-        
-        .header .navigation ul li:hover > ul {
-            display:block;
-        }
-        
-
+    
+    .header .navigation ul li a{
+        font-size: 18px;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 5px;
+    }
+    
+    .header .navigation ul li a:hover{
+        background-color: #685ceb;
+        font-weight: 400;
+    }
+    
+    .header .navigation ul li ul{
+        position: absolute;
+        right: 0;
+        width: 100%;
+        background-color: rgba(1,1, 1, 0.7);
+        display: none;
+    
+    }
+    
+    .header .navigation ul li ul li a{
+        font-size: 15px;
+        text-transform: capitalize;
+    }
+    
+    .header .navigation ul li ul li ul{
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    
+    .header .navigation ul li:hover > ul {
+        display:block;
+    }
+    
     #grupoForm{
             width: 80%;
             padding: 30px;
